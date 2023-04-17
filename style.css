@@ -1,0 +1,15 @@
+/*REUSABLE VARIABLES*/
+:root{
+    --color-white: #F5F1E8;
+    --color-black: #333333;
+    --color-green: #74867A;
+    --color-grey: #5B5F61;
+    --color-beige-light: #E6D4C8;
+    --color-beige-dark: #C5AD99;
+}
+.bg-dark{
+    background-color: var(--color-black);
+}
+h1{
+    color: var(--color-white);
+}
