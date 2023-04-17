@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Serif', serif;
+}
+
+/*
+Quicksand: font-family: 'League Spartan', sans-serif;
+Noto serif:
+*/
+
+nav{
+    position: fixed;
+    width: 100%;
+    background-color: rgba(180, 180, 180, 0.85);
+}
+
+nav img{
+    height: 2rem;
+    width: auto;
+}
+
+nav ul li{
+    font-family: Quicksand, sans-serif;
+    list-style-type: none;
+}
+nav ul li a{
+    text-decoration: none;
+    border-radius: 6rem;
+    color: #000;
+    background-color: #fff;
+}
+
+nav .icon ul li a{
+    background-color: #000;
+}
+
+nav .icon ul li a i{
+    font-size: 1rem;
+}
+
+header{
+    background-color: #707070;
+    color: #fff;
+}
+
+header .floww{
+    -webkit-text-stroke: #fff 2px;
+    color: #707070;
+}
+
+header ul li{
+    list-style-type: none;
+    background-color: #505050;
+    border-radius: 2rem;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #fff;
+    --bs-link-hover-color: #fff;
+}
+
+header ul li:hover{
+    background-color: #2a2a2a;
+}
+
+main .img_1, .img_2{
+    border-radius: 3rem;
+}
+
+main .img_1{
+    height: 22rem;
+    width: auto;
+}
+main .img_2{
+    height: 25rem;
+    width: auto;
+}
+
+footer{
+    background-color: #D3D1D1;
+}
+
+footer ul li{
+    list-style-type: none;
+}
+
+footer ul li a{
+    color: #000;
+    text-decoration: none;
+}
+
+footer .img_div{
+    border-bottom: 2px solid #000;
+}
+
+footer div img{
+    width: 4rem;
+    height: auto;
+}
+
+footer i{
+    font-size: 1.5rem;
+}
+
+footer i:hover{
+    color: #0a58ca;
+}
