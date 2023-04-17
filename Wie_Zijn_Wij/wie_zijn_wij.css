@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.images img{
+    height: 30rem;
+    width: auto;
+}
+
+.img_1{
+    top: 10rem;
+    right: -10rem;
+    height: 25rem;
+    width: auto;
+    z-index: 4;
+}
+.img_2{
+    height: 35rem;
+    width: auto;
+    z-index: 2;
+}
+
+.img_3{
+    height: 25rem;
+    width: auto;
+    z-index: 3;
+}
+
+main .image img{
+    height: 20rem;
+    width: auto;
+}
+
+.missie_visie img{
+    width: 100%;
+    height: 20rem;
+}
+
+
+footer{
+    background-color: #D3D1D1;
+}
+
+footer ul li{
+    list-style-type: none;
+}
+
+footer ul li a{
+    color: #000;
+    text-decoration: none;
+}
+
+footer .img_div{
+    border-bottom: 2px solid #000;
+}
+
+footer div img{
+    width: 4rem;
+    height: auto;
+}
+
+footer i{
+    font-size: 1.5rem;
+}
+
+footer i:hover{
+    color: #0a58ca;
+}
