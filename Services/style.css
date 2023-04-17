@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Serif', serif;
+}
+
+/*
+Quicksand: font-family: 'League Spartan', sans-serif;
+Noto serif:
+*/
+
+nav{
+    position: fixed;
+    width: 100%;
+}
+
+nav img{
+    height: 3.5rem;
+    width: auto;
+}
+
+nav ul{
+    border-radius: 20rem;
+    background: rgba(255, 255, 255, 0.35);
+    backdrop-filter: blur(8.1px);
+    -webkit-backdrop-filter: blur(8.1px);
+}
+
+nav ul li{
+    font-family: 'League Spartan', sans-serif;
+    list-style-type: none;
+}
+nav ul li a{
+    text-decoration: none;
+    border-radius: 6rem;
+    color: #000;
+    background-color: #fff;
+}
+
+nav .icon ul li a{
+    background-color: #000;
+}
+
+nav a{
+    background-color: #000;
+    color: #fff;
+}
+
+form {
+    display: flex;
+    align-items: center;
+}
+
+input[type="text"] {
+    padding: 5px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5rem;
+    outline: none;
+    flex: 1;
+}
+
+button[type="submit"] {
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: #505050;
+    color: white;
+    border: none;
+    border-radius: 5rem;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+nav .icon ul li a i{
+    font-size: 1rem;
+}
+
+header{
+    background-color: #707070;
+    color: #fff;
+}
+
+header .floww{
+    -webkit-text-stroke: #fff 2px;
+    color: #707070;
+}
+
+header ul li{
+    list-style-type: none;
+    background-color: #505050;
+    border-radius: 2rem;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #fff;
+    --bs-link-hover-color: #fff;
+}
+
+header ul li:hover{
+    background-color: #2a2a2a;
+}
+
+main .img_1, .img_2{
+    border-radius: 3rem;
+}
+
+main .img_1{
+    height: 22rem;
+    width: auto;
+}
+main .img_2{
+    height: 25rem;
+    width: auto;
+}
+
+footer{
+    background-color: #D3D1D1;
+}
+
+footer ul li{
+    list-style-type: none;
+}
+
+footer ul li a{
+    color: #000;
+    text-decoration: none;
+}
+
+footer .img_div{
+    border-bottom: 2px solid #000;
+}
+
+footer div img{
+    width: 4rem;
+    height: auto;
+}
+
+footer i{
+    font-size: 1.5rem;
+}
+
+footer i:hover{
+    color: #0a58ca;
+}
