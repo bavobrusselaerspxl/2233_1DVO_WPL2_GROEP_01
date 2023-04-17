@@ -22,8 +22,9 @@ nav img{
 
 nav ul{
     border-radius: 20rem;
-    background-color: #C5C5C5;
-    -webkit-backdrop-filter: blur(10px);backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.35);
+    backdrop-filter: blur(8.1px);
+    -webkit-backdrop-filter: blur(8.1px);
 }
 
 nav ul li{
@@ -39,6 +40,11 @@ nav ul li a{
 
 nav .icon ul li a{
     background-color: #000;
+}
+
+nav a{
+    background-color: #000;
+    color: #fff;
 }
 
 form {
