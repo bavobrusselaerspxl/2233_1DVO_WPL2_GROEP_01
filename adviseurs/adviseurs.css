@@ -35,13 +35,13 @@ h1, h2{
 
 .subsection_header{
     position: relative;
-    right: 3.5rem;
+    right: 6rem;
 }
 
 .subsection_header img{
     position: relative;
     top: 6rem;
-    left: 6rem;
+    left: 9rem;
     z-index: 1;
     width: 50rem;
     height: 35rem;
