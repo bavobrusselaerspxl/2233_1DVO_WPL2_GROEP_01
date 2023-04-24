@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,34 +6,36 @@
 }
 
 
-nav{
+nav {
     position: fixed;
     width: 100%;
 }
 
-nav img{
+nav img {
     height: 3.5rem;
     width: auto;
 }
 
-nav ul{
+nav ul {
     border-radius: 20rem;
     background-color: #C5C5C5;
-    -webkit-backdrop-filter: blur(10px);backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
 }
 
-nav ul li{
+nav ul li {
     font-family: 'League Spartan', sans-serif;
     list-style-type: none;
 }
-nav ul li a{
+
+nav ul li a {
     text-decoration: none;
     border-radius: 6rem;
     color: #000;
     background-color: #fff;
 }
 
-nav .icon ul li a{
+nav .icon ul li a {
     background-color: #000;
 }
 
@@ -62,8 +64,13 @@ button[type="submit"] {
     margin-left: 5px;
 }
 
-nav .icon ul li a i{
+nav .icon ul li a i {
     font-size: 1rem;
 }
 
+
+.contactpaginafoto {
+    width: 4rem;
+    height: auto;
+}
 
