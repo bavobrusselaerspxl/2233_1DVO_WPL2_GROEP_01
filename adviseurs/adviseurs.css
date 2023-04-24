@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Serif', serif;
+}
+
+.positioning {
+    position: relative;
+    right: 3rem;
+}
+
+.images {
+    height: 15rem;
+    width: auto;
+}
+
+.image_long {
+    height: 20rem;
+    width: 25rem;
+}
