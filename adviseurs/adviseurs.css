@@ -5,6 +5,10 @@
     font-family: 'Noto Serif', serif;
 }
 
+h1, h2{
+    font-family: 'League Spartan', sans-serif;
+}
+
 .positioning {
     position: relative;
     right: 3rem;
@@ -16,6 +20,37 @@
 }
 
 .image_long {
-    height: 20rem;
-    width: 25rem;
+    position: relative;
+    right: 7.5rem;
+    z-index: 0;
+    height: 30rem;
+    width: 50rem;
+}
+
+.info{
+    z-index: 1;
+    position: relative;
+    left: 3rem;
+}
+
+.subsection_header{
+    position: relative;
+    right: 3.5rem;
+}
+
+.subsection_header img{
+    position: relative;
+    top: 6rem;
+    left: 3.5rem;
+    z-index: 1;
+    width: 45rem;
+    height: 35rem;
+}
+
+.section{
+    width: 45rem;
+    height: 35rem;
+    z-index: 2;
+    border-radius: 4rem;
+    background-color: #F0F0F0;
 }
