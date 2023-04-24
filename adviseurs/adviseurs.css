@@ -75,6 +75,7 @@ main{
 }
 
 footer{
+    border-top: 0.1rem solid #000;
     background-color: #D3D1D1;
 }
 
