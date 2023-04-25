@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Serif', serif;
+}
+
+h1, h2{
+    font-family: 'League Spartan', sans-serif;
+}
+
+.positioning {
+    position: relative;
+    right: 3rem;
+}
+
+.images {
+    height: 15rem;
+    width: auto;
+}
+
+.image_long {
+    position: relative;
+    right: 7.5rem;
+    z-index: 0;
+    height: 30rem;
+    width: 50rem;
+}
+
+.info{
+    z-index: 1;
+    position: relative;
+    left: 3rem;
+}
+
+.subsection{
+    position: relative;
+    right: 6rem;
+}
+
+.subsection img{
+    position: relative;
+    top: 4rem;
+    left: 9rem;
+    z-index: 1;
+    width: 50rem;
+    height: 35rem;
+}
+
+.section{
+    width: 45rem;
+    height: 35rem;
+    position: relative;
+    bottom: 2rem;
+    z-index: 2;
+    border-radius: 4rem;
+    box-shadow: 0.1rem 0.3rem 0.3rem rgba(0, 0, 0, 0.16);
+    background-color: #F0F0F0;
+}
+
+main{
+    background-color: #DCDCDC;
+}
+
+.image{
+    height: 25.5rem;
+    border-radius: 1rem 1rem 0 0;
+    width: auto;
+}
+
+.person2{
+    background-color: none;
+}
+
+.person{
+    background-color: #fff;
+    border-radius: 0 0 3rem 3rem;
+}
+
+.person a{
+    color: #000;
+}
+
+.person a:hover{
+    color: #707070;
+}
+
+footer{
+    border-top: 0.1rem solid #000;
+    background-color: #D3D1D1;
+}
+
+footer ul li{
+    list-style-type: none;
+}
+
+footer ul li a{
+    color: #000;
+    text-decoration: none;
+}
+
+footer .img_div{
+    border-bottom: 2px solid #000;
+}
+
+footer div img{
+    width: 4rem;
+    height: auto;
+}
+
+footer i{
+    font-size: 1.5rem;
+}
+
+footer i:hover{
+    color: #0a58ca;
+}
