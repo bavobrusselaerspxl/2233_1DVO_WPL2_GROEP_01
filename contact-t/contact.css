@@ -1,14 +1,7 @@
-/*REUSABLE VARIABLES*/
-:root{
-    --color-white: #F5F1E8;
-    --color-black: #333333;
-    --color-green: #74867A;
-    --color-grey: #5B5F61;
-    --color-beige-light: #E6D4C8;
-    --color-beige-dark: #C5AD99;
+*{
+    box-sizing: border-box;
 }
 
-/* FLEXBOX */
 .flex{
     display: flex;
 }
@@ -25,10 +18,17 @@
     justify-content: flex-end;
 }
 
-/* BUTTONS */
+
 .button-1{
     padding: 4px 8px;
     background-color: var(--color-black);
     color: var(--color-white);
     border-radius: 30px;
+}
+
+
+
+
+h1{
+    color: var(--color-black);
 }
