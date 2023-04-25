@@ -68,8 +68,19 @@ main{
     width: auto;
 }
 
+.person1{
+    width: 21rem;
+    height: auto;
+}
+
 .person2{
-    background-color: none;
+    width: 21rem;
+    height: auto;
+}
+
+.person3{
+    width: 21rem;
+    height: auto;
 }
 
 .person{
