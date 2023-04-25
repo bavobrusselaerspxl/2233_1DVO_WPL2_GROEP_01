@@ -54,11 +54,22 @@ h1, h2{
     bottom: 2rem;
     z-index: 2;
     border-radius: 4rem;
+    box-shadow: 0.1rem 0.3rem 0.3rem rgba(0, 0, 0, 0.16);
     background-color: #F0F0F0;
 }
 
 main{
     background-color: #DCDCDC;
+}
+
+.image{
+    height: 25.5rem;
+    border-radius: 1rem 1rem 0 0;
+    width: auto;
+}
+
+.person2{
+    background-color: none;
 }
 
 .person{
