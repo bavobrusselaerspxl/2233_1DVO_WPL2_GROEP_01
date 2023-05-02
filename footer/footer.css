@@ -1,0 +1,31 @@
+
+
+footer{
+    background-color: #F5F1E8;
+}
+
+footer ul li{
+    list-style-type: none;
+}
+
+footer ul li a{
+    color: #000;
+    text-decoration: none;
+}
+
+footer .img_div{
+    border-bottom: 2px solid #000;
+}
+
+footer div img{
+    width: 4rem;
+    height: auto;
+}
+
+footer i{
+    font-size: 1.5rem;
+}
+
+footer i:hover{
+    color: #0a58ca;
+}
