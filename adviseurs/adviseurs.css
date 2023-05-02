@@ -66,8 +66,16 @@ li{
     right: 3rem;
 }
 
-.positioning span{
-    color: #8d8d8d;
+.positioning p{
+    backdrop-filter: revert(1);
+}
+
+.one{
+    height: 40rem;
+    border-radius: 8rem;
+    position: relative;
+    right: 1.5rem;
+    width: auto;
 }
 
 .two{
@@ -123,12 +131,6 @@ main{
 .images{
     height: 25.5rem;
     border-radius: 5rem;
-    width: auto;
-}
-
-.one{
-    height: 40rem;
-    border-radius: 8rem;
     width: auto;
 }
 
