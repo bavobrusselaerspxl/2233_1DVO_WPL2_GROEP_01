@@ -26,13 +26,13 @@
         <div class="d-flex justify-content-left p-5 mx-5">
             <h1>Adviseurs</h1>
         </div>
-        <div class="p-4 d-flex justify-content-center mx-5">
-            <img src="../assets/Untitled-2.png">
+        <div class="p-4 d-flex justify-content-center align-items-center mx-5">
+            <img class="images one" src="../assets/img_4.png">
             <div class="positioning d-flex justify-content-center flex-column">
-                <p class="p-0 m-1">Twijfelt u over wat uw verantwoordelijkheden en risico’s zijn als eigenaar van een website?</p>
-                <p class="p-0 m-1">Hebben jullie hulp nodig bij zakenrelaties tussen partijen of willen jullie een opvolging?</p>
-                <p class="p-0 m-1">Dan zijn jullie altijd welkom om ons te contacteren. </p>
-                <p class="p-0 m-1 my-3">Wij helpen je graag verder!</p>
+                <p class="p-2 m-1">Twijfelt u over wat uw verantwoordelijkheden en risico’s zijn als eigenaar van een website?</p>
+                <p class="p-2 m-1">Hebben jullie hulp nodig bij zakenrelaties tussen partijen of willen jullie een opvolging?</p>
+                <p class="p-2 m-1"><span>Dan</span> zijn jullie altijd welkom om ons te contacteren.</p>
+                <p class="p-2 m-1 my-3"><span>Wij</span> helpen je graag verder!</p>
             </div>
             <div class="d-flex flex-column justify-content-center mx-5">
                 <img class="images" src="../assets/Untitled-2.png" alt="image1">
@@ -62,16 +62,16 @@
                 </ul>
             </div>
         </div>
-        <img class="image_long" src="../assets/Untitled-2.png" alt="image3">
+        <img class="images two" src="../assets/img_5.png" alt="image3">
     </div>
     <div class="subsection d-flex justify-content-center align-items-center">
-        <img class="mb-5" src="../assets/Untitled-2.png" alt="image4">
+        <img class="mb-5 three" src="../assets/img_6.png" alt="image4">
         <div class="section p-4">
             <div class="d-flex justify-content-center align-items-center flex-column my-3 mb-5">
                 <h2>Ontmoet een van </h2>
                 <h2>onze adviseurs</h2>
             </div>
-            <p class="p-0 m-0 mb-5">(Naam)</p>
+            <p class="p-0 m-0 mb-5">Marissa</p>
 
             <p class="p-0 m-1">Floww. staat voor advocaten/adviseurs dat</p>
             <p class="p-0 m-1 mb-5">jouw bedrijf verder helpt groeien.</p>
@@ -88,76 +88,84 @@
                 <p>Ontmoet ons klein maar sterk team van adviseurs/advocaten</p>
             </div>
         </div>
-        <div class="d-flex flex-row justify-content-center">
-            <div class="d-flex align-items-center flex-column">
-                <img class="image person2" src="../assets/img_4.png" alt="image5">
 
-                <div class="person d-flex flex-row justify-content-between align-items-center py-4 px-5">
-                    <div class="d-flex flex-column align-items-left">
-                        <h3>Marie Mosterd</h3>
-                        <p>Adviseur</p>
-                    </div>
 
-                    <a class="btn1" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false"
-                       aria-controls="collapseExample">
-                        <i class="fa-solid fa-plus"></i>
-                    </a>
 
-                    <div class="collapse" id="collapseExample">
-                        <div class="card card-body d-flex flex-colmun">
-                            <p>Marie Mosterd is 28 jaar en woont in Antwerpen.</p>
-                            <p>Marie is gespecialiseerd in UI en UX design maar heeft ook kennis over front-end development</p>
+
+
+
+        <div class=" accordion d-flex flex-row justify-content-evenly" id="accordionExample">
+            <div class="item_image d-flex align-items-center flex-column m-1">
+                <img class="images_accordion" src="../assets/img_1.png" alt="image1">
+                <div class="accordion-item my-1 mx-2">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                                aria-expanded="false" aria-controls="collapseOne">
+                            <p>Marie Vanveldeke</p>
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                         data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p>Hallo ik ben Marie, Ik werk al 2jaar voor Floww..</p>
+                            <p>Ik ben een ervaren UI/UX designer maar help mijn klanten ook bv. bij het boekhouding</p>
+                            <p>Wil jij mijn hulp? Aarzel dan zeker niet om contact op te nemen met Floww.</p>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="d-flex align-items-center flex-column">
-                <img class="image person2"  src="../assets/img_6.png" height="649" width="465"/>
-                <div class="person d-flex justify-content-between align-items-center py-4 px-5">
-                    <div class="d-flex flex-column align-items-left">
-                        <h3>Bram Mosterd</h3>
-                        <p>Adviseur</p>
-                    </div>
 
 
-                    <a class="btn2" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false"
-                       aria-controls="collapseExample">
-                        <i class="fa-solid fa-plus"></i>
-                    </a>
-
-                    <div class="collapse" id="collapseExample">
-                        <div class="card card-body d-flex flex-colmun">
-                            <p>Bram Mosterd is 25 jaar en woont in Limburg.</p>
-                            <p>Bart Mosterd is gespecialiseerd in Front-end development maar heeft ook kennis in UI en UX design</p>
+            <div class="item_image d-flex align-items-center flex-column  m-1">
+                <img class="images_accordion" src="../assets/img_2.png" alt="image1">
+                <div class="accordion-item my-1 mx-2">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <p>Bram Vanveldeke</p>
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                         data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p>Hallo iedereen ik ben Bram, Ik ben de jongste en nieuwste werknemer binnen Floww.</p>
+                            <p>Ik help mensen graag verder met Front-end development, dit is waar ik het meeste in uistraal en het liefste doe.</p>
+                            <p>Wil jij mijn hulp? Aarzel dan zeker niet om contact op te nemen met Floww.</p>
                         </div>
                     </div>
-
-
                 </div>
             </div>
-            <div class="d-flex align-items-center flex-column">
-                <img src="../assets/Untitled-2.png">
-                <div class="person d-flex justify-content-between align-items-center py-4 px-5">
-                    <div class="d-flex flex-column align-items-left">
-                        <h3>Arnold Stegens</h3>
-                        <p>Advocaat</p>
-                    </div>
 
-                    <a class="btn" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false"
-                       aria-controls="collapseExample">
-                        <i class="fa-solid fa-plus"></i>
-                    </a>
 
-                    <div class="collapse" id="collapseExample">
-                        <div class="card card-body d-flex flex-colmun">
-                            <p>Arnold Stegens is 53 jaar en woont in Brussel.</p>
-                            <p>Bart Mosterd is je vertrouwbare advocaat dat altijd paraat staat om je te helpen.</p>
+            <div class="item_image d-flex align-items-center flex-column  m-1">
+                <img class="images_accordion" src="../assets/img_3.png" alt="image1">
+                <div class="accordion-item my-1 mx-2">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <p>Arnold Vliegers</p>
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                         data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <p>Hallo Allemaal ik ben Arnold Vliegers, Ik ben een advocaat dat werkt voor floww.</p>
+                            <p>Ik help mijn klanten graag verder bij problemen binnen en buiten het bedrijf en het boekhouding</p>
+                            <p>Wil jij mijn hulp? Aarzel dan zeker niet om contact op te nemen met Floww.</p>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
+
+
+
+
+
+
+
+
+
     </main>
     <footer class="p-5">
         <div class="d-flex justify-content-evenly align-items-start">

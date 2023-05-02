@@ -4,27 +4,36 @@
     box-sizing: border-box;
     font-family: 'Noto Serif', serif;
 }
-
-h1, h2{
-    font-family: 'League Spartan', sans-serif;
+h1{
+    font-family: quicksand, sans-serif;
+    font-weight: bolder;
 }
 
+
 .positioning {
+    border-radius: 2rem;
+    backdrop-filter: blur(10px);
     position: relative;
     right: 3rem;
 }
 
-.images {
-    height: 15rem;
-    width: auto;
+.positioning span{
+    color: #8d8d8d;
 }
 
-.image_long {
+.two{
     position: relative;
     right: 7.5rem;
     z-index: 0;
+    border-radius: 4rem;
     height: 30rem;
     width: 50rem;
+}
+
+.three{
+    border-radius: 6rem;
+    width: 14rem;
+    height: auto;
 }
 
 .info{
@@ -54,22 +63,49 @@ h1, h2{
     bottom: 2rem;
     z-index: 2;
     border-radius: 4rem;
-    box-shadow: 0.1rem 0.3rem 0.3rem rgba(0, 0, 0, 0.16);
+    /*box-shadow: 0.1rem 0.3rem 0.3rem rgba(0, 0, 0, 0.16);*/
     background-color: #F0F0F0;
 }
 
 main{
-    background-color: #DCDCDC;
+    background-color: #74867A;
 }
 
-.image{
+.images{
     height: 25.5rem;
-    border-radius: 1rem 1rem 0 0;
+    border-radius: 5rem;
     width: auto;
 }
 
+.one{
+    height: 40rem;
+    border-radius: 8rem;
+    width: auto;
+}
+
+.images_accordion{
+    height: 25.5rem;
+    border-radius: 3rem;
+    width: auto;
+}
+
+
+
+
+/*
+.person1{
+    width: 21rem;
+    height: auto;
+}
+
 .person2{
-    background-color: none;
+    width: 21rem;
+    height: auto;
+}
+
+.person3{
+    width: 21rem;
+    height: auto;
 }
 
 .person{
@@ -83,11 +119,11 @@ main{
 
 .person a:hover{
     color: #707070;
-}
+}*/
 
 footer{
     border-top: 0.1rem solid #000;
-    background-color: #D3D1D1;
+    background-color: #F5F1E8;
 }
 
 footer ul li{

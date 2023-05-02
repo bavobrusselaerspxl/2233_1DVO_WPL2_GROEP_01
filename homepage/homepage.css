@@ -5,10 +5,15 @@
     font-family: 'Noto Serif', serif;
 }
 
-/*
-Quicksand: font-family: 'League Spartan', sans-serif;
-Noto serif:
-*/
+h1{
+    font-family: quicksand, sans-serif;
+    font-weight: bolder;
+}
+
+h1{
+    font-family: Quicksand, sans-serif;
+    font-size: 80px;
+}
 
 nav{
     position: fixed;
@@ -106,17 +111,14 @@ main .img_1, .img_2{
     border-radius: 3rem;
 }
 
-main .img_1{
-    height: 22rem;
-    width: auto;
-}
-main .img_2{
-    height: 25rem;
-    width: auto;
+main .image{
+    position: relative;
+    top: 6rem;
 }
 
+
 footer{
-    background-color: #D3D1D1;
+    background-color: #F5F1E8;
 }
 
 footer ul li{
