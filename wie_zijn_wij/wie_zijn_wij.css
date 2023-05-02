@@ -2,10 +2,36 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Noto Serif', serif;
 }
+
+h1{
+    font-family: quicksand, sans-serif;
+    font-weight: bolder;
+}
+
 
 .images img{
     height: 30rem;
+    width: auto;
+}
+
+.yellow{
+    background-color: #F5F1E8;
+}
+
+.green{
+    background-color: #5B5F61;
+    color: #F5F1E8;
+}
+
+.one{
+    border-radius: 4rem;
+}
+
+.image_two{
+    border-radius: 6rem;
+    height: 15rem;
     width: auto;
 }
 
@@ -40,7 +66,7 @@ main .image img{
 
 
 footer{
-    background-color: #D3D1D1;
+    background-color: #F5F1E8;
 }
 
 footer ul li{

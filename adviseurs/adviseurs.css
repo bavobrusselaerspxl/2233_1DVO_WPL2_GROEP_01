@@ -4,9 +4,9 @@
     box-sizing: border-box;
     font-family: 'Noto Serif', serif;
 }
-
-h1, h2{
-    font-family: 'League Spartan', sans-serif;
+h1{
+    font-family: quicksand, sans-serif;
+    font-weight: bolder;
 }
 
 
