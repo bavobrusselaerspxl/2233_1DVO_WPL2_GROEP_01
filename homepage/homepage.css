@@ -8,49 +8,60 @@
 h1{
     font-family: quicksand, sans-serif;
     font-weight: bolder;
-}
-
-h1{
-    font-family: Quicksand, sans-serif;
     font-size: 80px;
 }
 
-nav{
-    position: fixed;
-    width: 100%;
+
+
+.nav-edit{
+    margin-top: -1rem;
+}
+.logo-small{
+    width: 5rem;
+    height: 5rem;
+    margin-left: .3rem;
+    margin-right: .3rem;
 }
 
-nav img{
-    height: 3.5rem;
-    width: auto;
+
+.nav-round{
+    border-radius: 5rem;
+    border: none;
+    background-color: var(--color-white);
 }
 
-nav ul{
-    border-radius: 20rem;
-    background: rgba(255, 255, 255, 0.35);
-    backdrop-filter: blur(8.1px);
-    -webkit-backdrop-filter: blur(8.1px);
+
+li{
+    border-radius: 5rem;
+    background-color: var(--color-white);
+    margin-left: .7rem;
+    margin-right: .7rem;
+    padding-left: .6rem;
+    padding-right: .6rem;
+    max-height: 3rem;
 }
 
-nav ul li{
-    font-family: 'League Spartan', sans-serif;
-    list-style-type: none;
+.blur{
+    backdrop-filter: blur(5rem);
+    border-radius: 10rem;
+    padding: .5rem .1rem .5rem .1rem;
+    /*background-color: var(--color-green);*/
+
 }
-nav ul li a{
-    text-decoration: none;
-    border-radius: 6rem;
-    color: #000;
-    background-color: #fff;
+.search-icon{
+    margin-left: 2rem;
+}
+.search{
+    margin-left: -5rem;
+}
+.search-container{
+    margin-right: 1.5rem;
+}
+.icon{
+    font-size: xx-large;
 }
 
-nav .icon ul li a{
-    background-color: #000;
-}
 
-nav a{
-    background-color: #000;
-    color: #fff;
-}
 
 form {
     display: flex;

@@ -22,6 +22,54 @@
 </head>
 <body>
 <div class="container-fluid p-0">
+
+    <nav class="navbar navbar-expand-lg nav-edit">
+        <div class="container-fluid ">
+            <i class="fa-solid fa-arrow-left icon"></i>
+            <img src="../assets/Logo.png" alt="logo" class="logo-small">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse font-white blur" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item nav-round">
+                        <a class="nav-link active" aria-current="page" href="#">Over ons</a>
+                    </li>
+
+                    <li class="nav-item nav-round">
+                        <a class="nav-link active" aria-current="page" href="#">Services</a>
+                    </li>
+
+                    <li class="nav-item nav-round">
+                        <a class="nav-link active" aria-current="page" href="#">Events</a>
+                    </li>
+
+                    <li class="nav-item nav-round">
+                        <a class="nav-link active" aria-current="page" href="#">Adviseurs</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Wiki</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" role="button">Shop</a>
+                    </li>
+
+                </ul>
+                <form class="d-flex search-container" role="search">
+                    <input class="form-control me-2 nav-round" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn search" type="submit">
+                        <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                    </button>
+                </form>
+            </div>
+            <i class="fa-solid fa-user icon"></i>
+        </div>
+    </nav>
+
     <header class="p-5">
         <div class="d-flex justify-content-left p-5 mx-5">
             <h1>Adviseurs</h1>
@@ -31,8 +79,8 @@
             <div class="positioning d-flex justify-content-center flex-column">
                 <p class="p-2 m-1">Twijfelt u over wat uw verantwoordelijkheden en risico’s zijn als eigenaar van een website?</p>
                 <p class="p-2 m-1">Hebben jullie hulp nodig bij zakenrelaties tussen partijen of willen jullie een opvolging?</p>
-                <p class="p-2 m-1"><span>Dan</span> zijn jullie altijd welkom om ons te contacteren.</p>
-                <p class="p-2 m-1 my-3"><span>Wij</span> helpen je graag verder!</p>
+                <p class="p-2 m-1">Dan zijn jullie altijd welkom om ons te contacteren.</p>
+                <p class="p-2 m-1 my-3">Wij helpen je graag verder!</p>
             </div>
             <div class="d-flex flex-column justify-content-center mx-5">
                 <img class="images" src="../assets/Untitled-2.png" alt="image1">
@@ -89,17 +137,12 @@
             </div>
         </div>
 
-
-
-
-
-
         <div class=" accordion d-flex flex-row justify-content-evenly" id="accordionExample">
             <div class="item_image d-flex align-items-center flex-column m-1">
-                <img class="images_accordion" src="../assets/img_1.png" alt="image1">
+                <img class="images_accordion mb-2" src="../assets/img_1.png" alt="image1">
                 <div class="accordion-item my-1 mx-2">
                     <h2 class="accordion-header" id="headingOne">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
                                 aria-expanded="false" aria-controls="collapseOne">
                             <p>Marie Vanveldeke</p>
                         </button>
@@ -117,7 +160,7 @@
 
 
             <div class="item_image d-flex align-items-center flex-column  m-1">
-                <img class="images_accordion" src="../assets/img_2.png" alt="image1">
+                <img class="images_accordion mb-2" src="../assets/img_2.png" alt="image1">
                 <div class="accordion-item my-1 mx-2">
                     <h2 class="accordion-header" id="headingTwo">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
@@ -138,18 +181,18 @@
 
 
             <div class="item_image d-flex align-items-center flex-column  m-1">
-                <img class="images_accordion" src="../assets/img_3.png" alt="image1">
+                <img class="images_accordion mb-2" src="../assets/img_3.png" alt="image1">
                 <div class="accordion-item my-1 mx-2">
                     <h2 class="accordion-header" id="headingThree">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            <p>Arnold Vliegers</p>
+                            <p>Arnold Knoppen</p>
                         </button>
                     </h2>
                     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                          data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                            <p>Hallo Allemaal ik ben Arnold Vliegers, Ik ben een advocaat dat werkt voor floww.</p>
+                            <p>Hallo Allemaal ik ben Arnold Knoppen, Ik ben een advocaat dat werkt voor floww.</p>
                             <p>Ik help mijn klanten graag verder bij problemen binnen en buiten het bedrijf en het boekhouding</p>
                             <p>Wil jij mijn hulp? Aarzel dan zeker niet om contact op te nemen met Floww.</p>
                         </div>
@@ -157,14 +200,6 @@
                 </div>
             </div>
         </div>
-
-
-
-
-
-
-
-
 
     </main>
     <footer class="p-5">

@@ -10,7 +10,6 @@
             crossorigin="anonymous"></script>
 
 
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap" rel="stylesheet">
@@ -24,23 +23,54 @@
 <body>
 <div class="container-fluid p-0">
 
-    <nav class="d-flex justify-content-evenly align-items-center flex-row p-2">
-        <img src="../assets/Logo.png">
-        <ul class="d-flex flex-row align-items-center m-0 p-2">
-            <li class="mx-1 p-1"><a class="p-2" href="#">Over ons</a></li>
-            <li class="mx-1 p-1"><a class="p-2" href="#">Services</a></li>
-            <li class="mx-1 p-1"><a class="p-2" href="#">Events</a></li>
-            <li class="mx-1 p-1"><a class="p-2" href="#">Adviseurs</a></li>
-            <li class="mx-1 p-1"><a class="p-2" href="#">Wiki</a></li>
-            <li class="mx-1 p-1"><a class="p-2" href="#">Shop</a></li>
-            <form>
-                <input type="text" placeholder="Zoeken...">
-                <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
-            </form>
-            <!--<li class="mx-1 p-1"><a class="p-2" href="#"><i class="fa-solid fa-user"></i></a></li>-->
-        </ul>
-        <a class="p-2" href="#"><i class="fa-solid fa-user"></i></a>
+
+    <nav class="navbar navbar-expand-lg nav-edit">
+        <div class="container-fluid ">
+            <img src="../assets/Logo.png" alt="logo" class="logo-small">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse font-white blur" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item nav-round">
+                        <a class="nav-link active" aria-current="page" href="/wie_zijn_wij/wie_zijn_wij.html">Over ons</a>
+                    </li>
+
+                    <li class="nav-item nav-round">
+                        <a class="nav-link active" aria-current="page" href="#">Services</a>
+                    </li>
+
+                    <li class="nav-item nav-round">
+                        <a class="nav-link active" aria-current="page" href="/events/events.html">Events</a>
+                    </li>
+
+                    <li class="nav-item nav-round">
+                        <a class="nav-link active" aria-current="page" href="/adviseurs/adviseurs.html">Adviseurs</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Wiki</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" role="button">Shop</a>
+                    </li>
+
+                </ul>
+                <form class="d-flex search-container" role="search">
+                    <input class="form-control me-2 nav-round" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn search" type="submit">
+                        <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                    </button>
+                </form>
+            </div>
+            <i class="fa-solid fa-user icon"></i>
+        </div>
     </nav>
+
 
     <header class="p-5">
         <div class="div_header">
