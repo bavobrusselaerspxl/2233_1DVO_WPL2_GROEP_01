@@ -1,71 +1,53 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Noto Serif', serif;
+/*css navigatie*/
+body{
+    background-color: var(--color-beige-light);
+}
+.nav-edit{
+    margin-top: -1rem;
+}
+.logo-small{
+    width: 5rem;
+    height: 5rem;
+    margin-left: .3rem;
+    margin-right: .3rem;
 }
 
 
-nav {
-    position: fixed;
-    width: 100%;
-}
-
-nav img {
-    height: 3.5rem;
-    width: auto;
-}
-
-nav ul {
-    border-radius: 20rem;
-    background-color: #C5C5C5;
-    -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);
-}
-
-nav ul li {
-    font-family: 'League Spartan', sans-serif;
-    list-style-type: none;
-}
-
-nav ul li a {
-    text-decoration: none;
-    border-radius: 6rem;
-    color: #000;
-    background-color: #fff;
-}
-
-nav .icon ul li a {
-    background-color: #000;
-}
-
-form {
-    display: flex;
-    align-items: center;
-}
-
-input[type="text"] {
-    padding: 5px;
-    font-size: 16px;
-    border: none;
+.nav-round{
     border-radius: 5rem;
-    outline: none;
-    flex: 1;
-}
-
-button[type="submit"] {
-    padding: 5px 10px;
-    font-size: 16px;
-    background-color: #505050;
-    color: white;
     border: none;
-    border-radius: 5rem;
-    cursor: pointer;
-    margin-left: 5px;
+    background-color: var(--color-white);
 }
 
-nav .icon ul li a i {
-    font-size: 1rem;
+
+li{
+    border-radius: 5rem;
+    background-color: var(--color-white);
+    margin-left: .7rem;
+    margin-right: .7rem;
+    padding-left: .6rem;
+    padding-right: .6rem;
+    max-height: 3rem;
+}
+
+.blur{
+    backdrop-filter: blur(5rem);
+    border-radius: 10rem;
+    padding: .5rem .1rem .5rem .1rem;
+    /*background-color: var(--color-green);*/
+
+}
+.search-icon{
+    margin-left: 2rem;
+}
+.search{
+    margin-left: -5rem;
+}
+.search-container{
+    margin-right: 1.5rem;
+}
+.icon{
+    font-size: xx-large;
 }
 
 
@@ -74,3 +56,33 @@ nav .icon ul li a i {
     height: auto;
 }
 
+/*css footer*/
+footer{
+    background-color: #F5F1E8;
+}
+
+footer ul li{
+    list-style-type: none;
+}
+
+footer ul li a{
+    color: #000;
+    text-decoration: none;
+}
+
+footer .img_div{
+    border-bottom: 2px solid #000;
+}
+
+footer div img{
+    width: 4rem;
+    height: auto;
+}
+
+footer i{
+    font-size: 1.5rem;
+}
+
+footer i:hover{
+    color: #0a58ca;
+}

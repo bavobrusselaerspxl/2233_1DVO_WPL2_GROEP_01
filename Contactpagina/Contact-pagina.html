@@ -16,83 +16,59 @@
     <script src="https://kit.fontawesome.com/007ab681d3.js" crossorigin="anonymous"></script>
 </head>
 <body>
-<nav class="d-flex justify-content-evenly align-items-center flex-row p-2">
-    <img alt="logo flow" src="../assets/Logo.png">
-    <ul class="d-flex flex-row align-items-center m-0 p-2">
-        <li class="mx-1 p-1"><a class="p-2" href="#">Over ons</a></li>
-        <li class="mx-1 p-1"><a class="p-2" href="#">Services</a></li>
-        <li class="mx-1 p-1"><a class="p-2" href="#">Events</a></li>
-        <li class="mx-1 p-1"><a class="p-2" href="#">Adviseurs</a></li>
-        <li class="mx-1 p-1"><a class="p-2" href="#">Wiki</a></li>
-        <li class="mx-1 p-1"><a class="p-2" href="#">Shop</a></li>
-        <form>
-            <input type="text" placeholder="Zoeken...">
-            <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
-        </form>
-        <li class="mx-1 p-1"><a class="p-2" href="#"><i class="fa-solid fa-user"></i></a></li>
-    </ul>
+<nav class="navbar navbar-expand-lg nav-edit">
+    <div class="container-fluid ">
+        <i class="fa-solid fa-arrow-left icon"></i>
+        <img src="../assets/Logo.png" alt="logo" class="logo-small">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse font-white blur" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                <li class="nav-item nav-round">
+                    <a class="nav-link active" aria-current="page" href="#">Over ons</a>
+                </li>
+
+                <li class="nav-item nav-round">
+                    <a class="nav-link active" aria-current="page" href="#">Services</a>
+                </li>
+
+                <li class="nav-item nav-round">
+                    <a class="nav-link active" aria-current="page" href="#">Events</a>
+                </li>
+
+                <li class="nav-item nav-round">
+                    <a class="nav-link active" aria-current="page" href="#">Adviseurs</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Wiki</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#" role="button">Shop</a>
+                </li>
+
+            </ul>
+            <form class="d-flex search-container" role="search">
+                <input class="form-control me-2 nav-round" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn search" type="submit">
+                    <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                </button>
+            </form>
+        </div>
+        <i class="fa-solid fa-user icon"></i>
+    </div>
 </nav>
+
 
 </body>
 <body>
 <header class="bg-light py-3">
-
 </header>
-
 <main class="container py-5 px-5">
-
-    <!--    </div>-->
-    <!--    <div class="row">-->
-    <!--        <div class="col d-flex justify-content-center"><h2>Contacteer ons vrijblijvend</h2></div>-->
-    <!--    </div>-->
-    <!--    <div class="row">-->
-    <!--        <div class="col-6">-->
-    <!--            <div class="col-5"><img class="contactpaginaFoto" src="/assets/pngwing.com%20-%202023-01-06T145605.383.png"-->
-    <!--                                    alt="Placeholder foto">-->
-    <!--            </div>-->
-    <!--        </div>-->
-    <!--        <div class="col-6 justify-content-end">-->
-    <!--            <form action="">-->
-    <!--                <div class="mb-3 py-5 d-flex ">-->
-    <!--                    <select class="form-select" id="onderwerp" required>-->
-    <!--                        <option value="">Onderwerp</option>-->
-    <!--                        <option value="Vraag">Vraag</option>-->
-    <!--                        <option value="Opmerking">Opmerking</option>-->
-    <!--                        <option value="Suggestie">Suggestie</option>-->
-    <!--                    </select>-->
-    <!--                </div>-->
-    <!--            </form>-->
-    <!--        </div>-->
-    <!--    </div>-->
-    <!--    <div class="row">-->
-    <!--        <div class="col-6 mb-3">-->
-    <!--            <label for="naam" class="form-label">Naam</label>-->
-    <!--            <input type="name" class="form-control" id="naam" required>-->
-    <!--        </div>-->
-
-    <!--        <div class="col-6 mb-3">-->
-    <!--            <label for="email" class="form-label">E-mailadres</label>-->
-    <!--            <input type="email" class="form-control" id="email" required>-->
-    <!--        </div>-->
-    <!--    </div>-->
-    <!--    </div>-->
-    <!--    <div class="row">-->
-    <!--        <div class="col mb-3">-->
-    <!--            <label for="beschrijving" class="form-label">Beschrijving</label>-->
-    <!--            <textarea class="form-control" id="beschrijving" rows="3" required></textarea>-->
-    <!--        </div>-->
-    <!--    </div>-->
-    <!--    <div class="row">-->
-    <!--        <div class="col-10 d-flex justify-content-end">-->
-    <!--            <button type="submit">Verzenden</button>-->
-    <!--        </div>-->
-    <!--    </div>-->
-
-    <!--    <div class="container">-->
-    <!--        <div class="row"></div>-->
-    <!--        <div class="row"></div>-->
-    <!--    </div>-->
-
     <div class="container-fluid ">
         <h1>Contact</h1>
         <div>
@@ -109,30 +85,41 @@
                         <div class="input-group mt-3">
                             <select class="form-select" id="onderwerp" required>
                                 <option value="">Onderwerp</option>
-                                <option value="Vraag">Vraag</option>
-                                <option value="Opmerking">Opmerking</option>
-                                <option value="Suggestie">Suggestie</option>
+                                <option value="vraag">Vraag</option>
+                                <option value="opmerking">Opmerking</option>
+                                <option value="suggestie">Suggestie</option>
+                                <option value="wetten">Wetten</option>
+                                <option value="persoonlijkadvieseur">Persoonlijke advieseur</option>
+                                <option value="financieel">Financieel</option>
                             </select>
+                            <label for="onderwerp"></label>
                         </div>
                     </form>
                     <div class="p-4">
                         <div class="input-group mb-3">
                             <span><i class="bi bi-envelope text-white"></i></span>
-                            <input type="email" class="form-control" placeholder="Naam">
+                            <input type="email" class="form-control" id="naam" placeholder="Naam">
+                            <label for="naam"></label>
                         </div>
                         <div class="input-group mb-3">
                             <span><i class="bi bi-envelope text-white"></i></span>
-                            <input type="email" class="form-control" placeholder="Email">
+                            <input type="email" id="email" class="form-control" placeholder="Email">
+                            <label for="email"></label>
                         </div>
-
+                        <div class="input-group mb-3">
+                            <span><i class="bi bi-envelope text-white"></i></span>
+                            <input type="tel" id="telefoonnummer" class="form-control" placeholder="Telefoonnummer">
+                            <label for="telefoonnummer"></label>
+                        </div>
                         <div class="input-group mb-3">
                             <span><i class="bi bi-envelope text-white"></i></span>
                             <textarea class="form-control" name="beschrijving" id="beschrijving" cols="20"
                                       placeholder="Beschrijving" rows="5"></textarea>
+                            <label for="beschrijving"></label>
                         </div>
 
                         <div class="d-grid col-12 mx-auto">
-                            <button class="btn btn-primary" type="button"><span></span> Verzend</button>
+                            <button class="btn btn-primary" type="button">Verzend</button>
                         </div>
 
                     </div>
@@ -143,9 +130,50 @@
     </div>
 
 </main>
-<footer class="bg-light py-3">
-    <div class="container text-center">
-        &copy; 2023 Bootstrap Example
+<footer class="p-5">
+    <div class="d-flex justify-content-evenly align-items-start">
+        <div class="d-flex flex-column m-2">
+            <h5 class="my-4">Over ons</h5>
+            <p class="my-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore
+                et dolore magna aliqua.</p>
+            <p class="my-0">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                aliquip ex ea commodo consequat.</p>
+        </div>
+        <div class="d-flex flex-column m-2">
+            <h5 class="my-4">Contact informatie</h5>
+            <p>Adres: Elfde Liniestraat 24</p>
+            <p>3500 Hasselt</p>
+            <p>Telefoon nummer: 011 77 55 55</p>
+            <a href="#">info@floww.be</a>
+        </div>
+        <div class="d-flex flex-column m-2">
+            <h5 class="my-4">Navigatie</h5>
+            <ul class="m-0 p-0">
+                <li class="my-1"><a href="#">Over Floww.</a></li>
+                <li class="my-1"><a href="#">Services</a></li>
+                <li class="my-1"><a href="#">Events</a></li>
+                <li class="my-1"><a href="#">Adviseurs</a></li>
+                <li class="my-1"><a href="#">Wiki</a></li>
+            </ul>
+        </div>
+        <div class="d-flex flex-column m-2">
+            <h5 class="my-4">Nieuwsbrief</h5>
+            <p>Blijf op de hoogte van al het nieuws dat wij</p>
+            <p>publiceren door je in te schrijven voor onze nieuwsbrief.</p>
+        </div>
+    </div>
+    <div class="img_div d-flex flex-column m-2">
+        <img src="../assets/Logo.png" alt="footer-foto">
+    </div>
+    <div class="d-flex flex-row justify-content-between m-2 mt-5">
+        <p>Alle rechten voorbehoud, copyright door Floww.</p>
+        <ul class="d-flex flex-row">
+            <li class="mx-2"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+            <li class="mx-2"><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+            <li class="mx-2"><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+            <li class="mx-2"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+        </ul>
     </div>
 </footer>
 </body>
