@@ -27,6 +27,12 @@ h1{
     background-color: var(--color-white);
 }
 
+#rectangle{
+    border-radius: 6rem;
+    height: 16rem;
+    width: auto;
+}
+
 
 li{
     border-radius: 5rem;
