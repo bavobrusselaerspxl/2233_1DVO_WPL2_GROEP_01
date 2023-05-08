@@ -1,0 +1,162 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Serif', serif;
+}
+
+h1, h2{
+    font-family: quicksand, sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+h5{
+    color: #fff;
+    font-family: quicksand, sans-serif;
+    font-weight: bolder;
+}
+
+input::placeholder{
+    font-family: 'Noto Serif', serif;
+}
+
+
+.nav-edit {
+    margin-top: -1rem;
+}
+
+.logo-small {
+    width: 5rem;
+    height: 5rem;
+    margin-left: .3rem;
+    margin-right: .3rem;
+}
+
+
+.nav-round {
+    border-radius: 5rem;
+    border: none;
+    background-color: var(--color-white);
+}
+
+
+li {
+    border-radius: 5rem;
+    background-color: var(--color-white);
+    margin-left: .7rem;
+    margin-right: .7rem;
+    padding-left: .6rem;
+    padding-right: .6rem;
+    max-height: 3rem;
+}
+
+.blur {
+    backdrop-filter: blur(5rem);
+    border-radius: 10rem;
+    padding: .5rem .1rem .5rem .1rem;
+    /*background-color: var(--color-green);*/
+
+}
+
+.search-icon {
+    margin-left: 2rem;
+}
+
+.search {
+    margin-left: -5rem;
+}
+
+.search-container {
+    margin-right: 1.5rem;
+}
+
+.icon {
+    font-size: xx-large;
+}
+
+#background-image {
+    background-image: url("../assets/img_15.png");
+    background-size: cover;
+    height: 40rem;
+    width: auto;
+}
+
+#glass{
+    background: rgba(131, 131, 131, 0.25);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    height: 40rem;
+    width: 35rem;
+}
+
+#background{
+    background-color: #333;
+    border-radius: 1rem;
+    height: 30rem;
+    width: 25rem;
+}
+
+#background h2{
+    color: #fff;
+}
+
+input{
+    background-color: #333;
+    border: none;
+    width: 20rem;
+    border-bottom: 2px solid #fff;
+    border-radius: 1px;
+}
+
+#login{
+    background-color: #74867A;
+    border-radius: 3rem;
+    width: 12rem;
+    height: auto;
+}
+
+#login a{
+    color: #fff;
+    text-decoration: none;
+}
+
+#geenaccount a{
+    color: #fff;
+}
+
+
+footer{
+    background-color: #F5F1E8;
+}
+
+footer h5{
+    color: #000;
+}
+
+footer ul li{
+    list-style-type: none;
+}
+
+footer ul li a{
+    color: #000;
+    text-decoration: none;
+}
+
+footer .img_div{
+    border-bottom: 2px solid #000;
+}
+
+footer div img{
+    width: 4rem;
+    height: auto;
+}
+
+footer i{
+    font-size: 1.5rem;
+}
+
+footer i:hover{
+    color: #0a58ca;
+}
