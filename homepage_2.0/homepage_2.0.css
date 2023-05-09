@@ -131,4 +131,5 @@ footer i{
 
 footer i:hover{
     color: var(--beige-darker);
+    transition: 0.2s linear;
 }
