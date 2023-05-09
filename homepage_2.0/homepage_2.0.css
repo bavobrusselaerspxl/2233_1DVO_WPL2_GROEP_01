@@ -7,7 +7,9 @@
 :root{
     --white: #fff;
     --broken-white: #f5f1e8;
-    --beige: #e6d4cb;
+    --beige: #ece0d5;
+    --beige-darker: #e6d4cb;
+    --light-green: #cfcfc9;
     --green: #74867a;
     --dark-green: #4f5952;
     --light-brown: #c5ad99;
@@ -24,7 +26,7 @@
 }
 
 header{
-    background-color: var(--broken-white);
+    background-color: var(--light-green);
 }
 
 #info {
@@ -39,9 +41,23 @@ header{
     height: 16rem;
 }
 
+.changes{
+    width: auto;
+    height: 30rem;
+}
+
 .lid{
-    border: 2px solid #333;
+    border: 2px solid var(--black);
     border-radius: 2rem;
+    text-decoration: none;
+    color: var(--black);
+}
+
+.lid:hover{
+    border: 0;
+    color: var(--white);
+    background-color: var(--black);
+    transition: background 0.3s linear;
 }
 
 #link{
@@ -49,4 +65,8 @@ header{
     background-color: var(--dark-green);
     color: var(--white);
     text-decoration: none;
+}
+
+main{
+    background-color: var(--beige);
 }
