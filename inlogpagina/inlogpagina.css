@@ -106,6 +106,7 @@ input{
     background-color: #333;
     border: none;
     width: 20rem;
+    color: #fff;
     border-bottom: 2px solid #fff;
     border-radius: 1px;
 }
