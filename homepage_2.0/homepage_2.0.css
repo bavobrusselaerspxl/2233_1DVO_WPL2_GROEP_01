@@ -4,6 +4,20 @@
     box-sizing: border-box;
 }
 
+::root{
+    --white: #fff;
+    --broken-white: #f5f1e8;
+    --beige: #e6d4cb;
+    --green: #74867a;
+    --dark-green: #4f5952;
+    --light-brown: #c5ad99;
+    --dark-brown: #776a61;
+    --yellow: #f9d18a;
+    --coral-red: #bc8271;
+    --grey: #5B5F61;
+    --black: #333;
+}
+
 .logo-small{
     height: 4rem;
     width: auto;
@@ -19,4 +33,13 @@
 .image{
     width: auto;
     height: 20rem;
+}
+
+.lid{
+    border: 2px solid #333;
+    border-radius: 2rem;
+}
+
+#link{
+    background-color: #4f5952;
 }
