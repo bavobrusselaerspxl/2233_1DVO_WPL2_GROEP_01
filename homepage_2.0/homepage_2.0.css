@@ -36,6 +36,11 @@ header{
     border-radius: 2rem;
 }
 
+#info:hover{
+    background-color: var(--grey);
+    transition: background 0.3s linear;
+}
+
 .image{
     width: auto;
     height: 16rem;
@@ -73,6 +78,15 @@ header{
     text-decoration: none;
 }
 
+#link:hover{
+    background-color: var(--green);
+    transition: background 0.3s linear;
+}
+
 main{
     background-color: var(--beige);
+}
+
+.background-color{
+    background-color: var(--light-brown);
 }
