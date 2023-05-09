@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-::root{
+:root{
     --white: #fff;
     --broken-white: #f5f1e8;
     --beige: #e6d4cb;
@@ -23,10 +23,14 @@
     width: auto;
 }
 
+header{
+    background-color: var(--broken-white);
+}
+
 #info {
-    background-color: #333;
+    background-color: var(--black);
     text-decoration: none;
-    color: #fff;
+    color: var(--white);
     border-radius: 2rem;
 }
 
@@ -41,5 +45,8 @@
 }
 
 #link{
-    background-color: #4f5952;
+    border-radius: 2rem;
+    background-color: var(--dark-green);
+    color: var(--white);
+    text-decoration: none;
 }
