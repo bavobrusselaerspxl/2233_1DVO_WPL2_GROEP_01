@@ -110,14 +110,13 @@ input{
     border-radius: 1px;
 }
 
+
+
 #login{
     background-color: #74867A;
     border-radius: 3rem;
     width: 12rem;
     height: auto;
-}
-
-#login a{
     color: #fff;
     text-decoration: none;
 }
