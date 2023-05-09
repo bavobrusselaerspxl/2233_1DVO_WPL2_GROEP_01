@@ -5,19 +5,19 @@
     font-family: 'Noto Serif', serif;
 }
 
-h1, h2{
+h1, h2 {
     font-family: quicksand, sans-serif;
     font-weight: bolder;
     font-size: 30px;
 }
 
-h5{
+h5 {
     color: #fff;
     font-family: quicksand, sans-serif;
     font-weight: bolder;
 }
 
-input::placeholder{
+input::placeholder {
     font-family: 'Noto Serif', serif;
 }
 
@@ -82,7 +82,7 @@ li {
     width: auto;
 }
 
-#glass{
+#glass {
     background: rgba(131, 131, 131, 0.25);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(12px);
@@ -91,18 +91,18 @@ li {
     width: 35rem;
 }
 
-#background{
+#background {
     background-color: #333;
     border-radius: 1rem;
     height: 30rem;
     width: 25rem;
 }
 
-#background h2{
+#background h2 {
     color: #fff;
 }
 
-input{
+input {
     background-color: #333;
     border: none;
     width: 20rem;
@@ -111,7 +111,7 @@ input{
     border-radius: 1px;
 }
 
-#login{
+#login {
     background-color: #74867A;
     border-radius: 3rem;
     width: 12rem;
@@ -120,50 +120,58 @@ input{
     text-decoration: none;
 }
 
-#login:hover{
+#login:hover {
     background-color: #515e56;
-
 }
 
-#geenaccount a{
+#geenaccount a {
     color: #fff;
 }
 
-#wachtwoord{
+#geenaccount a:hover {
+    color: #c0c0c0;
+    transition: background 0.2s linear;
+}
+
+#wachtwoord {
     color: #fff;
 }
 
+#wachtwoord:hover {
+    color: #c0c0c0;
+}
 
-footer{
+
+footer {
     background-color: #F5F1E8;
 }
 
-footer h5{
+footer h5 {
     color: #000;
 }
 
-footer ul li{
+footer ul li {
     list-style-type: none;
 }
 
-footer ul li a{
+footer ul li a {
     color: #000;
     text-decoration: none;
 }
 
-footer .img_div{
+footer .img_div {
     border-bottom: 2px solid #000;
 }
 
-footer div img{
+footer div img {
     width: 4rem;
     height: auto;
 }
 
-footer i{
+footer i {
     font-size: 1.5rem;
 }
 
-footer i:hover{
+footer i:hover {
     color: #0a58ca;
 }
