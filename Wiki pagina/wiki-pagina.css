@@ -1,0 +1,178 @@
+/*css navigatie*/
+.nav-edit {
+    margin-top: -1rem;
+}
+
+.logo-small {
+    width: 5rem;
+    height: 5rem;
+    margin-left: .3rem;
+    margin-right: .3rem;
+}
+
+
+.nav-round {
+    border-radius: 5rem;
+    border: none;
+    background-color: var(--color-white);
+}
+
+
+li {
+    border-radius: 5rem;
+    background-color: var(--color-white);
+    margin-left: .7rem;
+    margin-right: .7rem;
+    padding-left: .6rem;
+    padding-right: .6rem;
+    max-height: 3rem;
+}
+
+.blur {
+    backdrop-filter: blur(5rem);
+    border-radius: 10rem;
+    padding: .5rem .1rem .5rem .1rem;
+    /*background-color: var(--color-green);*/
+
+}
+
+.search-icon {
+    margin-left: 2rem;
+}
+
+.search {
+    margin-left: -5rem;
+}
+
+.search-container {
+    margin-right: 1.5rem;
+}
+
+.icon {
+    font-size: xx-large;
+}
+
+
+/*css main*/
+.main__financieel {
+    max-width: 75%;
+    margin: 0 auto;
+}
+
+.main__financieel a {
+    text-decoration: none;
+
+}
+
+main h1 {
+    color: #74867A;
+}
+
+.nav-round{
+    border-radius: 5rem;
+    border: none;
+    background-color: var(--color-white);
+}
+
+main ul li{
+    list-style-type: none;
+    background-color: #505050;
+    border-radius: 2rem;
+}
+
+main ul li a{
+    text-decoration: none;
+    color: #fff;
+    --bs-link-hover-color: #fff;
+}
+
+main ul li:hover{
+    background-color: #2a2a2a;
+}
+
+
+main p {
+    max-width: 500px;
+}
+
+.blur{
+    backdrop-filter: blur(5rem);
+    border-radius: 10rem;
+    padding: .5rem .1rem .5rem .1rem;
+    /*background-color: var(--color-green);*/
+
+}
+
+.achtergrondfoto-financieel {
+    color: white;
+    background-image: url("/assets/pexels-david-mcbee-730547.jpg");
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.achtergrondfoto-zelfstandige {
+    color: white;
+    background-image: url("/assets/pexels-djordje-petrovic-2102415.jpg");
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.achtergrondfoto-starten {
+    color: #000000;
+    background-image: url("/assets/pexels-canva-studio-3153198.jpg");
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.achtergrondfoto-wettelijk {
+    color: white;
+    background-image: url("/assets/pexels-sora-shimazaki-5668484.jpg");
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    border-radius: 25px;
+    text-align: center;
+}
+
+/*css footer*/
+
+footer {
+    background-color: #F5F1E8;
+}
+
+footer ul li {
+    list-style-type: none;
+}
+
+footer ul li a {
+    color: #000;
+    text-decoration: none;
+}
+
+footer .img_div {
+    border-bottom: 2px solid #000;
+}
+
+footer div img {
+    width: 4rem;
+    height: auto;
+}
+
+footer i {
+    font-size: 1.5rem;
+}
+
+footer i:hover {
+    color: #0a58ca;
+}
+
+
