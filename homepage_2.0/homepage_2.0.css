@@ -7,6 +7,7 @@
 :root{
     --white: #fff;
     --broken-white: #f5f1e8;
+    --broken-broken-white: #fcf1e7;
     --beige: #ece0d5;
     --beige-darker: #e6d4cb;
     --light-green: #cfcfc9;
@@ -88,5 +89,46 @@ main{
 }
 
 .background-color{
-    background-color: var(--light-brown);
+    background-color: var(--broken-broken-white);
+    border-radius: 1rem;
+}
+
+
+footer{
+    background-color: var(--black);
+}
+
+footer h5{
+    color: var(--white);
+}
+
+footer p{
+    color: var(--white);
+}
+
+footer ul li{
+    list-style-type: none;
+    color: var(--white);
+}
+
+footer ul li a{
+    color: var(--white);
+    text-decoration: none;
+}
+
+footer .img_div{
+    border-bottom: 2px solid #000;
+}
+
+footer div img{
+    width: 4rem;
+    height: auto;
+}
+
+footer i{
+    font-size: 1.5rem;
+}
+
+footer i:hover{
+    color: var(--white);
 }
