@@ -111,8 +111,6 @@ input{
     border-radius: 1px;
 }
 
-
-
 #login{
     background-color: #74867A;
     border-radius: 3rem;
@@ -120,6 +118,11 @@ input{
     height: auto;
     color: #fff;
     text-decoration: none;
+}
+
+#login:hover{
+    background-color: #515e56;
+
 }
 
 #geenaccount a{
