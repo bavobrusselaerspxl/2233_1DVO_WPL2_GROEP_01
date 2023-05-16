@@ -1,9 +1,11 @@
 /*css navigatie*/
-.nav-edit {
+nav{
+    background-color: var(--color-beige-light);
+}
+.nav-edit{
     margin-top: -1rem;
 }
-
-.logo-small {
+.logo-small{
     width: 5rem;
     height: 5rem;
     margin-left: .3rem;
@@ -11,14 +13,14 @@
 }
 
 
-.nav-round {
+.nav-round{
     border-radius: 5rem;
     border: none;
     background-color: var(--color-white);
 }
 
 
-li {
+li{
     border-radius: 5rem;
     background-color: var(--color-white);
     margin-left: .7rem;
@@ -28,49 +30,36 @@ li {
     max-height: 3rem;
 }
 
-.blur {
+.blur{
     backdrop-filter: blur(5rem);
     border-radius: 10rem;
     padding: .5rem .1rem .5rem .1rem;
     /*background-color: var(--color-green);*/
 
 }
-
-.search-icon {
+.search-icon{
     margin-left: 2rem;
 }
-
-.search {
+.search{
     margin-left: -5rem;
 }
-
-.search-container {
+.search-container{
     margin-right: 1.5rem;
 }
-
-.icon {
+.icon{
     font-size: xx-large;
 }
 
-
-
 /*css main*/
+
+main {
+    width: 80%;
+    margin: 0 auto;
+}
 
 main h1 {
     color: #74867A;
 }
-main a {
-    display: flex;
-}
-
-main a img {
-    width: 30px;
-    justify-content: flex-end;
-}
-
-.stretchcard {
-    height: 3rem;
- }
 
 /*css footer*/
 
@@ -103,5 +92,3 @@ footer i {
 footer i:hover {
     color: #0a58ca;
 }
-
-
