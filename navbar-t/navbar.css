@@ -1,14 +1,27 @@
 body{
-    background-color: var(--color-beige-light);
+    background-color: var(--color-beige-dark);
 }
-.nav-edit{
-    margin-top: -1rem;
+
+
+.navbar{
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    margin-top: 0;
 }
 .logo-small{
+    width: 3rem;
+    height: 3rem;
+    margin-left: .3rem;
+    margin-right: .3rem;
+    object-fit: contain;
+}
+.logo-medium{
     width: 5rem;
     height: 5rem;
     margin-left: .3rem;
     margin-right: .3rem;
+    object-fit: contain;
 }
 
 
@@ -18,24 +31,28 @@ body{
     background-color: var(--color-white);
 }
 
+.bg-nav{
+    backdrop-filter: blur(10px) brightness(0.79);
+    height: 4rem;
+    margin-top: -.5rem;
+}
 
 li{
     border-radius: 5rem;
-    background-color: var(--color-white);
     margin-left: .7rem;
     margin-right: .7rem;
     padding-left: .6rem;
     padding-right: .6rem;
     max-height: 3rem;
 }
-
-.blur{
-    backdrop-filter: blur(5rem);
-    border-radius: 10rem;
-    padding: .5rem .1rem .5rem .1rem;
-    /*background-color: var(--color-green);*/
-
+.nav-link{
+    color: var(--color-white);
 }
+.nav-link:hover{
+    color: var(--color-white);
+}
+
+
 .search-icon{
     margin-left: 2rem;
 }
@@ -43,9 +60,15 @@ li{
     margin-left: -5rem;
 }
 .search-container{
-    margin-right: 1.5rem;
+    margin: 0;
 }
 .icon{
     font-size: xx-large;
+    margin-left: 1rem;
+
 }
 
+
+.m-top{
+    margin-top: 2rem;
+}
