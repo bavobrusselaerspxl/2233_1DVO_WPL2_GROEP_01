@@ -1,0 +1,27 @@
+h5, i, a{
+    color: var(--color-orange);
+    text-decoration: none;
+}
+
+
+.width-5{
+    width: 80px;
+}
+
+.bg-orange{
+    background-color: var(--color-orange);
+}
+
+label{
+    border-radius: 30px;
+
+}
+img{
+    width: 65px;
+}
+.card{
+    border: none;
+}
+.rad{
+    border-radius: 60%;
+}

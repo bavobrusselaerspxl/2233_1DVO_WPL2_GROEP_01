@@ -1,11 +1,23 @@
 /*REUSABLE VARIABLES*/
 :root{
-    --color-white: #F5F1E8;
+    --color-whitee: #F5F1E8;
     --color-black: #333333;
     --color-green: #74867A;
+    --color-green-dark: #4F5952;
     --color-grey: #5B5F61;
     --color-beige-light: #E6D4C8;
     --color-beige-dark: #C5AD99;
+    
+    --color-yelow: #F9D18A;
+    --color-orange: #BC8271;
+
+
+    --color-white: #FFFFFF;
+
+}
+
+.font-white{
+    color: var(--color-white);
 }
 
 /* FLEXBOX */
@@ -27,8 +39,9 @@
 
 /* BUTTONS */
 .button-1{
-    padding: 4px 8px;
+    padding: 6px 10px;
     background-color: var(--color-black);
     color: var(--color-white);
     border-radius: 30px;
+    border: 0px;
 }
