@@ -16,6 +16,7 @@
 
 }
 
+
 .font-white{
     color: var(--color-white);
 }
@@ -37,11 +38,43 @@
     justify-content: flex-end;
 }
 
+
+
+.m-top{
+    margin-top: 5rem;
+}
+
 /* BUTTONS */
 .button-1{
-    padding: 6px 10px;
+    padding: .8rem 1.3rem;
     background-color: var(--color-black);
     color: var(--color-white);
     border-radius: 30px;
     border: 0px;
+}
+.button-cart{
+    padding: .8rem 1rem 1rem 1rem;
+    background-color: var(--color-black);
+    color: var(--color-white);
+    border-radius: 30px;
+    border: 0px;
+   
+}
+.button-info{
+    background-color: var(--color-beige-dark);
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.button-add{
+    background-color: #74867A;
+    
+}
+
+.label{
+    color: var(--color-green-dark);
+}
+
+.none{
+    display: none;
 }
