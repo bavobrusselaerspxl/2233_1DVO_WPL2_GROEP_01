@@ -123,8 +123,8 @@ nav .icon ul li a i{
     height: auto;
     align-items: center;
     justify-content: right;
-    margin-left: 60%;
-    margin-top: -55%;
+    margin-left: 65%;
+    margin-top: -37%;
     border-radius: 3rem;
 }
 
@@ -163,6 +163,38 @@ footer i{
 
 footer i:hover{
     color: #0a58ca;
+}
+.imgrow{
+  margin-left: 15%;
+    margin-bottom: 10%;
+}
+.img2row{
+    margin-left: 10%;
+}
+.img3row{
+    margin-left: 10%;
+}
+.imgh2{
+    margin-left: 16%;
+    margin-top: 7%;
+    padding-bottom: 70px;
+    color: #74867A;
+}
+.button {
+    background-color: #74867A;
+    border: none;
+    color: white;
+    padding: 15px 62px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius:100px;
+    margin-left: 75%;
+
+
+
 }
 
 
