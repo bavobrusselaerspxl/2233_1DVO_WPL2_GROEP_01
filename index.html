@@ -17,89 +17,138 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/007ab681d3.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="homepage/homepage.css">
-    <script defer src="homepage/homepage.js"></script>
+    <link rel="stylesheet" href="homepage_2.0/homepage_2.0.css">
+    <script defer src="homepage_2.0/homepage_2.0.js"></script>
 </head>
 <body>
+<nav class="navbar navbar-expand-lg nav-edit">
+    <div class="container-fluid ">
+        <img src="assets/Logo.png" alt="logo" class="logo-small">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse font-white blur" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                <li class="nav-item nav-round">
+                    <a class="nav-link active" aria-current="page" href="/wie_zijn_wij/wie_zijn_wij.html">Over
+                        ons</a>
+                </li>
+
+                <li class="nav-item nav-round">
+                    <a class="nav-link active" aria-current="page" href="/Services/Services.html">Services</a>
+                </li>
+
+                <li class="nav-item nav-round">
+                    <a class="nav-link active" aria-current="page" href="/events/events.html">Events</a>
+                </li>
+
+                <li class="nav-item nav-round">
+                    <a class="nav-link active" aria-current="page" href="/adviseurs/adviseurs.html">Adviseurs</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Wiki</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#" role="button">Shop</a>
+                </li>
+
+            </ul>
+            <form class="d-flex search-container" role="search">
+                <input class="form-control me-2 nav-round" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn search" type="submit">
+                    <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                </button>
+            </form>
+        </div>
+        <i class="fa-solid fa-user icon"></i>
+    </div>
+</nav>
 <div class="container-fluid p-0">
-
-
-    <nav class="navbar navbar-expand-lg nav-edit">
-        <div class="container-fluid ">
-            <img src="../assets/Logo.png" alt="logo" class="logo-small">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent"
-                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse font-white blur" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-
-                    <li class="nav-item nav-round">
-                        <a class="nav-link active" aria-current="page" href="/wie_zijn_wij/wie_zijn_wij.html">Over ons</a>
-                    </li>
-
-                    <li class="nav-item nav-round">
-                        <a class="nav-link active" aria-current="page" href="/Services/Services.html">Services</a>
-                    </li>
-
-                    <li class="nav-item nav-round">
-                        <a class="nav-link active" aria-current="page" href="/events/events.html">Events</a>
-                    </li>
-
-                    <li class="nav-item nav-round">
-                        <a class="nav-link active" aria-current="page" href="/adviseurs/adviseurs.html">Adviseurs</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Wiki</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" role="button">Shop</a>
-                    </li>
-
-                </ul>
-                <form class="d-flex search-container" role="search">
-                    <input class="form-control me-2 nav-round" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn search" type="submit">
-                        <i class="fa-solid fa-magnifying-glass search-icon"></i>
-                    </button>
-                </form>
+    <header>
+        <div class="p-5 d-flex flex-row justify-content-center">
+            <div class="d-flex flex-column">
+                <h1 class="me-5">Legal advice op <span>maat</span></h1>
+                <p class="mx-5">Groei als een bedrijf/persoon/team... Zoek bij ons dat duwtje <br>in de rug dat je nog
+                    nodig had!</p>
             </div>
-            <i class="fa-solid fa-user icon"></i>
+            <img id="image1" src="assets/img_18.png">
         </div>
-    </nav>
-
-
-    <header class="p-5">
-        <div class="div_header">
-            <div class="d-flex my-3 justify-content-center align-items-center flex-column">
-                <h2>Groww with</h2>
-                <h1 class="floww">FLOWW.</h1>
+        <div class="d-flex flex-column">
+            <div class="d-flex flex-row justify-content-center align-items-center">
+                <div class="d-flex flex-row">
+                    <div class="d-flex flex-column">
+                        <h1 class="me-5 pe-5">Groei als ondernemer</h1>
+                        <p class="m-0 ps-5">Hulp nodig bij het groeien of starten van je bedrijf?</p>
+                        <p class="m-0 ps-5">Geen idee hoe je legale zaken kunt aanpakken?</p>
+                        <p class="m-0 ps-5">Bij ons krijg je persoonlijke begeleiding bij de</p>
+                        <p class="m-0 ps-5">doelen die je als bedrijf wilt bereiken.</p>
+                        <p class="m-0 ps-5">Lees meer over onze werking!</p>
+                        <div class="pt-3 mb-3 d-flex align-items-center justify-content-center">
+                            <a id="info" class="p-2 ps-4 pe-4 mt-4" href="#">Meer info</a>
+                        </div>
+                    </div>
+                    <img id="image2" src="assets/smiley-workeres.png">
+                </div>
             </div>
-            <div class="d-flex my-3 justify-content-center align-items-center flex-column">
-                <h2>Opzoek naar <span>legal advice?</span></h2>
-                <h2>Wordt lid en start je bedrijf let een persoonlijke adviseur!</h2>
+            <div id="positioning1" class="d-flex align-items-end justify-content-between">
+                <img class="image" id="positioning_image_1" src="assets/img_16.png" alt="meerdere fotos">
+                <div class="d-flex flex-row my-3 me-5">
+                    <p class="lid-2 p-2 ps-4 pe-4 my-0 mx-2">342 leden</p>
+                    <p class="lid-2  p-2 ps-4 pe-4 my-0  mx-2">32 bedrijven</p>
+                    <a id="link" class="p-1 ps-4 pe-4 px-2 mx-2 d-flex align-items-center" href="#">wordt ook lid!<img class="ms-2" id="arrow" src="assets/arrow1.png"></a>
+                </div>
             </div>
-            <div class="my-5">
-                <ul class="d-flex flex-row justify-content-center m-2 p-2">
-                    <li class="m-1 p-2"><a href="#">Wordt lid</a></li>
-                    <li class="m-1 p-2"><a href="#">Onze voordelen</a></li>
-                    <li class="m-1 p-2"><a href="#">Ondernemingswiki</a></li>
-                </ul>
-            </div>
-        </div>
     </header>
-    <main class="d-flex justify-content-evenly align-items-center p-5">
-        <div class="d-flex justify-content-start align-items-start flex-column">
-            <h1 class="my-5">Hoe werkt FLOWW.?</h1>
-            <p class="m-0">Registreer jouw bedrijf.</p>
-            <p class="m-0">Vraag een persoonlijke adviseur aan.</p>
-            <p class="m-0">Krijg toegang tot de applicatie.</p>
+    <main>
+        <div class="zindex d-flex flex-row justify-content-center align-items-center p-5">
+            <h2 class="p-2 ps-4 pe-4 my-0 mx-2 me-5">Plan van aanpak</h2>
+                <a href="#" class="lid p-2 ps-4 pe-4 my-0 mx-2">Legal advice</a>
+                <a href="#" class="lid p-2 ps-4 pe-4 my-0 mx-2">Business plan</a>
+                <a href="#" class="lid p-2 ps-4 pe-4 my-0 mx-2">Process</a>
+                <a href="#" class="lid p-2 ps-4 pe-4 my-0 mx-2">Persoonlijke begeleiding</a>
+            <a href="#" class="ms-5"><img class="ms-2" id="arrow2" src="assets/arrow2.png"></a>
         </div>
-        <div class="d-flex justify-content-end flex-row align-items-end">
-            <img class="image mb-5 three" src="../assets/img_7.png" alt="image4">
+        <div class="ms-5 zindex d-flex flex-row justify-content-start align-items-end">
+            <div class="d-flex flex-column">
+                <div class="d-flex flex-column justify-content-start  ms-5 mb-4 pe-0">
+                    <h2 class="position_relative">Contact</h2>
+                    <div class="background-color p-4">
+                        <p class="m-0">Neem contact met ons op!</p>
+                        <p class="m-0">Je kan kiezen voor een digitale of fysiek gesprek dan heb je</p>
+                        <p class="m-0">ook nog de keuze om op de locatie zelf een afspraak te maken of op jouw bedrijf.
+                            Zo</p>
+                        <p class="m-0">zorgen we ervoor dat we toegankelijk zijn voor iedereen</p>
+                    </div>
+                </div>
+                <div class="zindex d-flex flex-column justify-content-start ms-5 mb-4 pe-3">
+                    <h2 class="position_relative">Inschrijven</h2>
+                    <div class="background-color p-4">
+                        <p class="m-0">Neem contact met ons op!</p>
+                        <p class="m-0">Je kan kiezen voor een digitale of fysiek gesprek dan heb je</p>
+                        <p class="m-0">ook nog de keuze om op de locatie zelf een afspraak te maken of op jouw bedrijf.
+                            Zo</p>
+                        <p class="m-0">zorgen we ervoor dat we toegankelijk zijn voor iedereen</p>
+                    </div>
+                </div>
+                <div class="zindex d-flex flex-column justify-content-start ms-5 mb-4 pe-5">
+                    <h2 class="position_relative">Diensten</h2>
+                    <div class="background-color p-4">
+                        <p class="m-0">Neem contact met ons op!</p>
+                        <p class="m-0">Je kan kiezen voor een digitale of fysiek gesprek dan heb je</p>
+                        <p class="m-0">ook nog de keuze om op de locatie zelf een afspraak te maken of op jouw bedrijf.
+                            Zo</p>
+                        <p class="m-0">zorgen we ervoor dat we toegankelijk zijn voor iedereen</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <img class="image changes" src="assets/img_17.png" alt="meerdere fotos">
+            </div>
         </div>
     </main>
     <footer class="p-5">
@@ -136,7 +185,7 @@
             </div>
         </div>
         <div class="img_div d-flex flex-column m-2">
-            <img src="../assets/Logo.png">
+            <img class="mb-3" src="assets/logo_white.png">
         </div>
         <div class="d-flex flex-row justify-content-between m-2 mt-5">
             <p>Alle rechten voorbehoud, copyright door Floww.</p>
