@@ -2,6 +2,16 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Noto Serif', serif;
+}
+
+h1{
+    font-size: 80px;
+}
+
+h1,h2,h3{
+    font-family: quicksand, sans-serif;
+    font-weight: bolder;
 }
 
 :root{
@@ -100,6 +110,8 @@ header{
     z-index: 0;
     height: 30rem;
     width: auto;
+    position: relative;
+    right: 4rem;
 }
 
 .lid:hover{
