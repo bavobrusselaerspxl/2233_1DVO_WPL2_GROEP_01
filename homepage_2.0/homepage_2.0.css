@@ -9,9 +9,10 @@ h1{
     font-size: 80px;
 }
 
-#position_relative{
+.position_relative{
     position: relative;
-    top: 1.4rem;
+    top: 1.6rem;
+    right: 1rem;
     z-index: 4;
 }
 
@@ -117,7 +118,7 @@ header{
     height: 30rem;
     width: auto;
     position: absolute;
-    top: 88rem;
+    top: 91rem;
     right: 1rem;
 }
 
