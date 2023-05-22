@@ -90,3 +90,6 @@ form{
 @media screen and (min-width: 1000px){
     
 }
+a{
+    font-family: var(--font-title);
+}
