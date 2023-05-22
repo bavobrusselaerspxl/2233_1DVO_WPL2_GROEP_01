@@ -31,6 +31,7 @@ for (let i = 0; i < btns.length; i++) {
 
 function add(event) {
     let price = Number(event.target.dataset.price);
+    let description = event.target.dataset.description;
     let title = event.target.dataset.title;
     let id = event.target.dataset.id;
 
@@ -39,6 +40,7 @@ if (id in cart) {
 } else {
     let cartItem = {
         title: title,
+        description: description,
         price: price,
         qty: 1
     };
