@@ -9,6 +9,12 @@ h1{
     font-size: 80px;
 }
 
+#position_relative{
+    position: relative;
+    top: 1.4rem;
+    z-index: 4;
+}
+
 h1,h2,h3{
     font-family: quicksand, sans-serif;
     font-weight: bolder;
@@ -110,8 +116,9 @@ header{
     z-index: 0;
     height: 30rem;
     width: auto;
-    position: relative;
-    right: 4rem;
+    position: absolute;
+    top: 88rem;
+    right: 1rem;
 }
 
 .lid:hover{
