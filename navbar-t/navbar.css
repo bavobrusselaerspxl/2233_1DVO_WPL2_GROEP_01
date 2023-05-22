@@ -47,6 +47,8 @@ li{
 }
 .nav-link{
     color: var(--color-white);
+    display: flex;
+    align-items: center;
 }
 .nav-link:hover{
     color: var(--color-white);
@@ -68,7 +70,23 @@ li{
 
 }
 
-
+li{
+    min-width: fit-content;
+}
+form{
+    max-width: 10rem;
+}
 .m-top{
     margin-top: 2rem;
+}
+
+@media screen and (max-width: 1000px){
+    .bg-nav{
+        align-content: center;
+    }
+    
+     
+}
+@media screen and (min-width: 1000px){
+    
 }

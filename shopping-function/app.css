@@ -1,0 +1,20 @@
+
+/* Home page */
+.toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+
+}
+
+.added {
+    color: white;
+
+}
+
