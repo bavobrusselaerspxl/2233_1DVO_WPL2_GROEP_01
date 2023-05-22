@@ -27,3 +27,6 @@ footer i{
 footer i:hover{
     color: #0a58ca;
 }
+.img_div{
+    padding-bottom: 1rem;
+  }

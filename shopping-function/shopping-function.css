@@ -55,3 +55,21 @@ span {
 .card-text{
     min-height: 3rem;
 }
+.button-info{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.shop-container{
+    margin-bottom: 4rem;
+}
+
+h5, h6, h1{
+    font-family: var(--font-title);
+}
+p{
+    font-family: var(--font-body);
+}
+button{
+    font-family: var(--font-body);
+}
