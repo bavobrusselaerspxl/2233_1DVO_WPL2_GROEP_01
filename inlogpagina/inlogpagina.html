@@ -17,59 +17,73 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/007ab681d3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../footer/footer.css">
+
+    <link rel="stylesheet" href="../navbar-t/navbar.css">
+    <link href="../style.css" rel="stylesheet">
+
     <link rel="stylesheet" href="inlogpagina.css">
+
     <script src="inlogpagina.js"></script>
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg nav-edit">
-    <div class="container-fluid">
-        <i class="fa-solid fa-arrow-left icon"></i>
-        <img src="../assets/Logo.png" alt="logo" class="logo-small">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse font-white blur" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-
-                <li class="nav-item nav-round">
-                    <a class="nav-link active" aria-current="page" href="/wie_zijn_wij/wie_zijn_wij.html">Over ons</a>
-                </li>
-
-                <li class="nav-item nav-round">
-                    <a class="nav-link active" aria-current="page" href="/Services/index.html">Services</a>
-                </li>
-
-                <li class="nav-item nav-round">
-                    <a class="nav-link active" aria-current="page" href="/events/events.html">Events</a>
-                </li>
-
-                <li class="nav-item nav-round">
-                    <a class="nav-link active" aria-current="page" href="/adviseurs/adviseurs.html">Adviseurs</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Wiki</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link" href="#" role="button">Shop</a>
-                </li>
-
-            </ul>
-            <form class="d-flex search-container" role="search">
-                <input class="form-control me-2 nav-round" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn search" type="submit">
-                    <i class="fa-solid fa-magnifying-glass search-icon"></i>
-                </button>
-            </form>
+    <!--=======================NAV===============================================-->
+    <nav class="navbar navbar-expand-lg nav-edit">
+        <div class="container-fluid bg-nav">
+            <div> 
+                <a class="nav-link" aria-current="page" href="../index.html">
+                    <img src="../assets/logo/logo_white.png" alt="logo" class="logo-small">
+                    <img src="../assets/logo/name_logo_white.png" alt="logo" class="logo-medium">
+                </a>
+            </div>
+            <button class="navbar-toggler nav-btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon nav-btn"></span>
+            </button>
+            <div class="collapse navbar-collapse blur" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 font-white">
+    
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="../wie_zijn_wij/wie_zijn_wij.html">Over ons</a>
+                    </li>
+    
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="../Services/index.html">Services</a>
+                    </li>
+    
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="../events/events.html">Events</a>
+                    </li>
+    
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="../adviseurs/adviseurs.html">Adviseurs</a>
+                    </li>
+    
+                    <li class="nav-item">
+                        <a class="nav-link" href="../Wiki pagina/Wiki-pagina.html">Wiki</a>
+                    </li>
+    
+                    <li class="nav-item">
+                        <a class="nav-link" href="../shopping-function/shopping-function.html" role="button">Shop</a>
+                    </li>
+    
+                </ul>
+                <form class="d-flex search-container" role="search">
+                    <input class="form-control me-2 nav-round" type="search" placeholder="Zoeken" aria-label="Search">
+                    <button class="btn search" type="submit">
+                        <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                    </button>
+                </form>
+            </div>
+            <a href="../inlogpagina/inlogpagina.html">
+                <img src="../assets/icons/log_in_icon.png" class="logo-small icon"></i>
+            </a>
         </div>
-        <i class="fa-solid fa-user icon"></i>
-    </div>
-</nav>
+    </nav>
+<!--=======================CONTENT===============================================-->
 
-<div class="container-fluid p-0">
+<div class="container-fluid content-container">
     <div id="background-image" class="d-flex justify-content-end align-items-center">
         <div id="glass" class="col-6 p-4 d-flex flex-column align-items-center">
             <h1 class="mb-3 text-light">Welkom bij Floww.</h1>
@@ -95,52 +109,56 @@
             </div>
         </div>
     </div>
-    <footer class="p-5">
-        <div class="d-flex justify-content-evenly align-items-start">
-            <div class="d-flex flex-column m-2">
-                <h5 class="my-4">Over ons</h5>
-                <p class="my-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore
-                    et dolore magna aliqua.</p>
-                <p class="my-0">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat.</p>
-            </div>
-            <div class="d-flex flex-column m-2">
-                <h5 class="my-4">Contact informatie</h5>
-                <p>Adres: Elfde Liniestraat 24</p>
-                <p>3500 Hasselt</p>
-                <p>Telefoon nummer: 011 77 55 55</p>
-                <a href="#">info@floww.be</a>
-            </div>
-            <div class="d-flex flex-column m-2">
-                <h5 class="my-4">Navigatie</h5>
-                <ul class="m-0 p-0">
-                    <li class="my-1"><a href="#">Over Floww.</a></li>
-                    <li class="my-1"><a href="#">Services</a></li>
-                    <li class="my-1"><a href="#">Events</a></li>
-                    <li class="my-1"><a href="#">Adviseurs</a></li>
-                    <li class="my-1"><a href="#">Wiki</a></li>
-                </ul>
-            </div>
-            <div class="d-flex flex-column m-2">
-                <h5 class="my-4">Nieuwsbrief</h5>
-                <p>Blijf op de hoogte van al het nieuws dat wij</p>
-                <p>publiceren door je in te schrijven voor onze nieuwsbrief.</p>
-            </div>
+    
+</div>
+ <!--=======================FOOTER===============================================-->
+
+ <footer class="p-5 spacing">
+    <div class="d-flex justify-content-evenly align-items-start">
+        <div class="d-flex flex-column m-2">
+            <h5 class="my-4">Over ons</h5>
+            <p class="my-0">Flowww biedt op maat gemaakte juridische, financiële en wettelijk advies voor ondernemers.
+                <br>
+                Onze ervaren adviseurs zijn gericht op het bieden van hoogwaardige dienstverlening <br> en het opbouwen
+                van
+                duurzame relaties met onze klanten. </p>
         </div>
-        <div class="img_div d-flex flex-column m-2">
-            <img src="../assets/Logo.png">
+        <div class="d-flex flex-column m-2">
+            <h5 class="my-4">Contact informatie</h5>
+            <p>Adres: Elfde Liniestraat 24</p>
+            <p>3500 Hasselt</p>
+            <p>Telefoon nummer: 011 77 55 55</p>
+            <a href="#">info@floww.be</a>
         </div>
-        <div class="d-flex flex-row justify-content-between m-2 mt-5">
-            <p>Alle rechten voorbehoud, copyright door Floww.</p>
-            <ul class="d-flex flex-row">
-                <li class="mx-2"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                <li class="mx-2"><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                <li class="mx-2"><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                <li class="mx-2"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+        <div class="d-flex flex-column m-2">
+            <h5 class="my-4">Navigatie</h5>
+            <ul class="m-0 p-0">
+                <li class="my-1"><a href="/wie_zijn_wij/wie_zijn_wij.html">Over Floww.</a></li>
+                <li class="my-1"><a href="/Services/index.html">Services</a></li>
+                <li class="my-1"><a href="/events/events.html">Events</a></li>
+                <li class="my-1"><a href="/adviseurs/adviseurs.html">Adviseurs</a></li>
+                <li class="my-1"><a href="/Wiki%20pagina/Wiki-pagina.html">Wiki</a></li>
+                <li class="my-1"><a href="/Contactpagina/Contact-pagina.html">Contact</a></li>
             </ul>
         </div>
-    </footer>
-</div>
+        <div class="d-flex flex-column m-2">
+            <h5 class="my-4">Nieuwsbrief</h5>
+            <p>Blijf op de hoogte van al het nieuws dat wij</p>
+            <p>publiceren door je in te schrijven voor onze nieuwsbrief.</p>
+        </div>
+    </div>
+    <div class="img_div d-flex flex-column m-2">
+        <img src="../assets/logo/logo_black.png">
+    </div>
+    <div class="d-flex flex-row justify-content-between m-2 mt-5">
+        <p>Alle rechten voorbehoud, copyright door Floww.</p>
+        <ul class="d-flex flex-row">
+            <li class="mx-2"><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+            <li class="mx-2"><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+            <li class="mx-2"><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+            <li class="mx-2"><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+        </ul>
+    </div>
+</footer>
 </body>
 </html>

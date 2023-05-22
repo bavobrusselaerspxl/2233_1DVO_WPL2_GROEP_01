@@ -1,0 +1,16 @@
+
+.content-container{
+    margin-top: 5rem;
+}
+
+.btn-serv{
+    text-decoration: none;
+    color: var(--color-white);
+    font-size: xx-large;
+}
+img{
+    max-width: 12rem;
+}
+li{
+    list-style: none;
+}

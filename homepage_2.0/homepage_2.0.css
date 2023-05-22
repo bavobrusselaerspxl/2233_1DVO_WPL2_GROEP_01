@@ -181,49 +181,39 @@ main{
 }
 
 
-footer{
-    background-color: var(--black);
-}
 
-footer h5{
-    color: var(--white);
-}
-
-footer p{
-    color: var(--white);
-}
-
-footer ul li{
-    list-style-type: none;
-    color: var(--white);
-}
-
-footer ul li a{
-    color: var(--white);
-    text-decoration: none;
-}
-
-footer .img_div{
-    border-bottom: 2px solid var(--white);
-}
-
-footer div img{
-    width: 4rem;
-    height: auto;
-}
-
-footer i{
-    font-size: 1.5rem;
-}
-
-footer i:hover{
-    color: var(--light-brown);
-    transition: 0.2s linear;
-}
 
 @media screen and (max-width: 420px){
     #image2{
         display: block;
         position: none;
     }
+}
+
+
+.pad-t{
+    padding-top: 4rem;
+    padding-left: 0;
+    padding-right: 0;
+}
+footer{
+    background-color: var(--black);
+
+}
+footer, i{
+    color: var(--white);
+}
+
+
+
+footer ul li a{
+    color: white;
+    text-decoration: none;
+}
+footer .img_div{
+    border-bottom: 2px solid white;
+}
+
+.nav-link{
+    font-family: var(--font-tile);
 }

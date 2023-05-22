@@ -90,6 +90,12 @@ form{
 @media screen and (min-width: 1000px){
     
 }
-a{
+a, li{
     font-family: var(--font-title);
 }
+
+input{
+    font-family: var(--font-body);
+}
+
+
