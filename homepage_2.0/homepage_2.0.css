@@ -176,6 +176,6 @@ footer i{
 }
 
 footer i:hover{
-    color: var(--beige-darker);
+    color: var(--light-brown);
     transition: 0.2s linear;
 }
