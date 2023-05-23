@@ -1,9 +1,13 @@
 *{
-    padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Noto Serif', serif;
 }
+.navbar{
+    padding: unset;
+    margin-top: .5rem;
+}
+
+
 
 h1{
     font-family: quicksand, sans-serif;
@@ -25,7 +29,8 @@ h1{
 }
 
 .one{
-    border-radius: 4rem;
+    border-radius: 2rem;
+    width: 40rem;
 }
 
 .img_1{
@@ -51,7 +56,7 @@ main .image img{
     border-radius: 5rem;
 }
 .image_two{
-    border-radius: 6rem;
+    border-radius: 2rem;
     width: 75%;
     height: auto;
 }
