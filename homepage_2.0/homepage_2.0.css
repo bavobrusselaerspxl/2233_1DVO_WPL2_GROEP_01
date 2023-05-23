@@ -130,7 +130,7 @@ header #arrow{
     color: var(--black);
 }
 
-.zindex{
+#zindex1{
     z-index: 1;
 }
 
@@ -139,7 +139,7 @@ header #arrow{
     height: 30rem;
     width: auto;
     position: absolute;
-    top: 91rem;
+    top: 87rem;
     right: 1rem;
 }
 
