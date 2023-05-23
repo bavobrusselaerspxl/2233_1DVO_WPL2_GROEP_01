@@ -31,3 +31,6 @@ footer i:hover {
 main #formulier {
   max-width: none;
 }
+main {
+  padding: 4rem;
+}
