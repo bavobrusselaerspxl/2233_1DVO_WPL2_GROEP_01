@@ -17,6 +17,10 @@ h1,h2,h3{
     font-weight: bolder;
 }
 
+span{
+    font-weight: bold;
+}
+
 :root{
     --white: #fff;
     --broken-white: #f5f1e8;
