@@ -97,12 +97,11 @@ header #arrow{
     /*position: relative;
     z-index: 1;
     bottom: 7.5rem;*/
-    position: relative;
     z-index: 1;
     left: 8rem;
     bottom: 6rem;
     border-radius: 2rem;
-    height: 20rem;
+    height: 30rem;
     width: auto;
 }
 
