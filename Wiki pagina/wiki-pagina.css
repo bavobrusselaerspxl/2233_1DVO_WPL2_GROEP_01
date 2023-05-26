@@ -68,25 +68,25 @@ main h1 {
     color: #74867A;
 }
 
-.nav-round{
+.nav-round {
     border-radius: 5rem;
     border: none;
     background-color: var(--color-white);
 }
 
-main ul li{
+main ul li {
     list-style-type: none;
     background-color: #505050;
     border-radius: 2rem;
 }
 
-main ul li a{
+main ul li a {
     text-decoration: none;
     color: #fff;
     --bs-link-hover-color: #fff;
 }
 
-main ul li:hover{
+main ul li:hover {
     background-color: #2a2a2a;
 }
 
@@ -95,7 +95,7 @@ main p {
     max-width: 500px;
 }
 
-.blur{
+.blur {
     backdrop-filter: blur(5rem);
     border-radius: 10rem;
     padding: .5rem .1rem .5rem .1rem;
@@ -103,19 +103,54 @@ main p {
 
 }
 
-.achtergrondfoto-financieel {
-    color: white;
+.financieel {
     background-image: url("/assets/pexels-david-mcbee-730547.jpg");
+    color: white;
+}
+
+
+.statistieken {
+    background-image: url("/assets/pexels-pixabay-210607.jpg");
+    color: #ffffff;
+}
+
+.financiele_wetgevingen {
+    background-image: url("/assets/pexels-andrea-piacquadio-3760067.jpg");
+    color: #000000;
+}
+
+.financieel_advies {
+    background-image: url("/assets/pexels-lukas-590041.jpg");
+    color: #ffffff;
+}
+
+
+.achtergrondfoto-financieel {
     height: 200px;
     width: 200px;
     background-size: cover;
     border-radius: 25px;
     text-align: center;
+}
+
+.wetgevingen {
+    background-image: url("/assets/pexels-djordje-petrovic-2102415.jpg");
+}
+
+.startups {
+    background-image: url("/assets/pexels-mikhail-nilov-6592676.jpg");
+}
+
+.kmo {
+    background-image: url("/assets/pexels-pixabay-269077.jpg");
+}
+
+.zelfstandige {
+    background-image: url("/assets/pexels-andrea-piacquadio-3760263.jpg");
 }
 
 .achtergrondfoto-zelfstandige {
     color: white;
-    background-image: url("/assets/pexels-djordje-petrovic-2102415.jpg");
     height: 200px;
     width: 200px;
     background-size: cover;
@@ -123,19 +158,55 @@ main p {
     text-align: center;
 }
 
-.achtergrondfoto-starten {
-    color: #000000;
+
+.waarbeginik {
     background-image: url("/assets/pexels-canva-studio-3153198.jpg");
+    color: #000000;
+}
+
+.hoebeginik {
+    background-image: url("/assets/pexels-markus-spiske-3905827.jpg");
+    color: #FFFFFF;
+}
+
+.zakelijk {
+    background-image: url("/assets/pexels-andrew-neel-2312369.jpg");
+    color: #FFFFFF;
+}
+
+.conculegas {
+    background-image: url("/assets/pexels-buro-millennial-1438072.jpg");
+    color: #FFFFFF;
+}
+
+
+.achtergrondfoto-starten {
+
     height: 200px;
     width: 200px;
     background-size: cover;
     border-radius: 25px;
     text-align: center;
+}
+
+.financielewetten {
+    background-image: url("/assets/pexels-sora-shimazaki-5668484.jpg");
+}
+
+.wettenvoorodnernemers {
+    background-image: url("/assets/pexels-pixabay-48148.jpg");
+}
+
+.specialewetten {
+    background-image: url("/assets/pexels-pixabay-159832.jpg");
+}
+
+.noodzakelijk {
+    background-image: url("/assets/pexels-ekaterina-bolovtsova-6077189.jpg");
 }
 
 .achtergrondfoto-wettelijk {
     color: white;
-    background-image: url("/assets/pexels-sora-shimazaki-5668484.jpg");
     height: 200px;
     width: 200px;
     background-size: cover;
