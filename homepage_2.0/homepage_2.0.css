@@ -17,6 +17,10 @@ h1,h2,h3{
     font-weight: bolder;
 }
 
+span{
+    font-weight: bold;
+}
+
 :root{
     --white: #fff;
     --broken-white: #f5f1e8;
@@ -77,6 +81,9 @@ header #arrow{
 }
 
 #positioning_image_1{
+    z-index: 0;
+    position: absolute;
+    left: -1.5rem;
     height: 20rem;
     width: auto;
 }
@@ -90,15 +97,12 @@ header #arrow{
 }
 
 #image2{
-    /*position: relative;
-    z-index: 1;
-    bottom: 7.5rem;*/
-    position: relative;
-    z-index: 1;
-    left: 8rem;
-    bottom: 6rem;
+    position: absolute;
+    z-index: -1;
+    right: 0.5rem;
+    top: 4rem;
     border-radius: 2rem;
-    height: 20rem;
+    height: 35rem;
     width: auto;
 }
 
@@ -130,7 +134,11 @@ header #arrow{
     color: var(--black);
 }
 
-.zindex{
+#zindex{
+    z-index: 1;
+}
+
+#zindex1{
     z-index: 1;
 }
 
@@ -139,7 +147,7 @@ header #arrow{
     height: 30rem;
     width: auto;
     position: absolute;
-    top: 91rem;
+    top: 74rem;
     right: 1rem;
 }
 
@@ -181,16 +189,6 @@ main{
 }
 
 
-
-
-@media screen and (max-width: 420px){
-    #image2{
-        display: block;
-        position: none;
-    }
-}
-
-
 .pad-t{
     padding-top: 4rem;
     padding-left: 0;
@@ -216,4 +214,14 @@ footer .img_div{
 
 .nav-link{
     font-family: var(--font-tile);
+}
+
+@media screen and (max-width: 400px){
+    #image2{
+        display: none;
+    }
+    /*#responsivity{
+        padding: 0;
+        margin: 0;
+    }*/
 }
