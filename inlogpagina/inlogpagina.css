@@ -1,3 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Serif', serif;
+}
+
+
+
+body{
+    background-color: var(--color-beige-dark);
+}
+
+
+.navbar{
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    margin-top: 0;
+}
+.logo-small{
+    width: 3rem;
+    height: 3rem;
+    margin-left: .3rem;
+    margin-right: .3rem;
+    object-fit: contain;
+}
+.logo-medium{
+    width: 5rem;
+    height: 5rem;
+    margin-left: .3rem;
+    margin-right: .3rem;
+    object-fit: contain;
+}
+
+
+.nav-round{
+    border-radius: 5rem;
+    border: none;
+    background-color: var(--color-white);
+}
+
+.bg-nav{
+    backdrop-filter: blur(10px) brightness(0.79);
+    height: 4rem;
+    margin-top: -.5rem;
+}
+
+li{
+    border-radius: 5rem;
+    margin-left: .7rem;
+    margin-right: .7rem;
+    padding-left: .6rem;
+    padding-right: .6rem;
+    max-height: 3rem;
+}
+.nav-link{
+    color: var(--color-white);
+    display: flex;
+    align-items: center;
+}
+.nav-link:hover{
+    color: var(--color-white);
+}
+
+
+.search-icon{
+    margin-left: 2rem;
+}
+.search{
+    margin-left: -5rem;
+}
+.search-container{
+    margin: 0;
+}
+.icon{
+    font-size: xx-large;
+    margin-left: 1rem;
+
+}
+
+li{
+    min-width: fit-content;
+}
+form{
+    max-width: 10rem;
+}
+.m-top{
+    margin-top: 2rem;
+}
+
+@media screen and (max-width: 1000px){
+    .bg-nav{
+        align-content: center;
+    }
+
+
+}
+@media screen and (min-width: 1000px){
+
+}
+a, li{
+    font-family: var(--font-title);
+}
+
+input{
+    font-family: var(--font-body);
+}
+
+
+
+
+
+
+
+
+
+
 .content-container{
     padding-top: 4rem;
 }
@@ -65,4 +183,12 @@ input {
 
 #wachtwoord:hover {
     color: #c0c0c0;
+}
+
+h5{
+    color: #fff;
+}
+
+.color{
+    color: #333;
 }
