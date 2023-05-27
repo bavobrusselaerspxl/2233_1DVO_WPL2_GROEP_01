@@ -98,7 +98,6 @@ header #arrow{
 
 #image2{
     position: absolute;
-    z-index: -1;
     right: 0.5rem;
     top: 4rem;
     border-radius: 2rem;
@@ -134,8 +133,15 @@ header #arrow{
     color: var(--black);
 }
 
-#zindex{
+.zindex{
+    z-index: 0;
+}
+.zindex_2{
     z-index: 1;
+    background: rgba(207, 207, 201, 0.74);
+    border-radius: 16px;
+    backdrop-filter: blur(11.3px);
+    -webkit-backdrop-filter: blur(11.3px);
 }
 
 #zindex1{
@@ -147,7 +153,7 @@ header #arrow{
     height: 30rem;
     width: auto;
     position: absolute;
-    top: 74rem;
+    top: 69rem;
     right: 1rem;
 }
 
