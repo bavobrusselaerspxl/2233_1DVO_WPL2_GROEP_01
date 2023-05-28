@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Noto Serif', serif;
+    font-family: var(--font-body);
 }
 
 .position_relative{
@@ -13,11 +13,12 @@
 }
 
 h1,h2,h3{
-    font-family: quicksand, sans-serif;
+    font-family: var(--font-tile);
     font-weight: bolder;
 }
 
 span{
+    font-family: var(--font-tile);
     font-weight: bold;
 }
 
