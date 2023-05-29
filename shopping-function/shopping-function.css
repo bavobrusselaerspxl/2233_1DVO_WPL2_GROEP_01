@@ -41,10 +41,11 @@ span {
 
 
 .button-container{
-    margin-top: 3rem;
+    margin-top: 4rem;
     justify-content: space-between;
     align-items: center;
     align-self: start;
+    width: 100%;
 }
 .price-tag{
     padding: .8rem 1.3rem;
@@ -54,10 +55,7 @@ span {
 }
 .card-text{
     min-height: 3rem;
-}
-.button-info{
-    text-decoration: none;
-    cursor: pointer;
+    
 }
 
 .shop-container{
@@ -72,4 +70,36 @@ p{
 }
 button{
     font-family: var(--font-body);
+}
+.new-img1{
+    mask-image: url(../assets/img/beginners.jpg);
+}
+
+
+
+@media screen and (max-width: 900px){
+    .product{
+        display: unset;
+    }
+    .button-container{
+        margin-top: 2rem;
+    }
+    .card{
+        margin-bottom: 2rem;
+    }
+    .prod-page{
+        width: 50%;
+    }
+   
+}
+
+
+
+.prod-page{
+    background-color: var(--color-beige-dark);
+
+}
+
+.card-content{
+    height: 7rem;
 }
