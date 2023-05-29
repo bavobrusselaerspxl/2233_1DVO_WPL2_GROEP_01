@@ -1,6 +1,6 @@
 
 .icon-beige{
-    color: var(--color-beige-dark);
+    color: var(--color-green);
 }
 
 .col1, .col2, .col3{
@@ -15,4 +15,63 @@ form{
 
 .card{
     border-radius: 5%;
+}
+.prod-info-txt{
+    max-width: 80%;
+}
+.col3{
+    margin-right: 5rem;
+}
+@media screen and (max-width: 900px){
+    .prod-details{
+        width: 100%;
+    }
+    .card-details{width: 40%;}
+    .col3{
+        min-width: 5rem;
+    }
+    .spacing{max-width: 60%;}
+    .form-control{width: 15rem;}
+  
+    
+}
+@media screen and (max-width: 764px){
+   
+    .d-unset{
+        display: unset !important;
+    }
+    .spacing{
+        min-width: 100%;
+    }
+    .card-details{width: 100%;}
+
+
+    .col3{
+        min-width: 17rem; 
+        margin-top: 2rem;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+
+}
+@media screen and (max-width: 300px){
+   
+    .d-unset{
+        display: unset !important;
+    }
+    .spacing{
+        min-width: 100%;
+    }
+    .card-details{width: 100%;}
+
+
+    .col3{
+        min-width: 17rem; 
+        margin-top: 2rem;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+
 }
