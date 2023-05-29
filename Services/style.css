@@ -9,36 +9,95 @@
 Quicksand: font-family: 'League Spartan', sans-serif;
 Noto serif:
 */
+body{
+    background-color: var(--color-beige-dark);
+}
 
-nav{
+
+.navbar{
     position: fixed;
+    z-index: 10;
     width: 100%;
+    margin-top: 0;
+}
+.logo-small{
+    width: 3rem;
+    height: 3rem;
+    margin-left: .3rem;
+    margin-right: .3rem;
+    object-fit: contain;
+}
+.logo-medium{
+    width: 5rem;
+    height: 5rem;
+    margin-left: .3rem;
+    margin-right: .3rem;
+    object-fit: contain;
 }
 
-nav img{
-    height: 3.5rem;
-    width: auto;
+
+.nav-round{
+    border-radius: 5rem;
+    border: none;
+    background-color: var(--color-white);
 }
 
-nav ul{
-    border-radius: 20rem;
-    background-color: #C5C5C5;
-    -webkit-backdrop-filter: blur(10px);backdrop-filter: blur(10px);
+.bg-nav{
+    backdrop-filter: blur(10px) brightness(0.79);
+    height: 4rem;
+    margin-top: -.5rem;
 }
 
-nav ul li{
-    font-family: 'League Spartan', sans-serif;
-    list-style-type: none;
+li{
+    border-radius: 5rem;
+    margin-left: .7rem;
+    margin-right: .7rem;
+    padding-left: .6rem;
+    padding-right: .6rem;
+    max-height: 3rem;
 }
-nav ul li a{
-    text-decoration: none;
-    border-radius: 6rem;
-    color: #000;
-    background-color: #fff;
+.nav-link{
+    color: var(--color-white);
+    display: flex;
+    align-items: center;
+}
+.nav-link:hover{
+    color: var(--color-white);
 }
 
-nav .icon ul li a{
-    background-color: #000;
+
+.search-icon{
+    margin-left: 2rem;
+}
+.search{
+    margin-left: -5rem;
+}
+.search-container{
+    margin: 0;
+}
+.icon{
+    font-size: xx-large;
+    margin-left: 1rem;
+
+}
+
+li{
+    min-width: fit-content;
+}
+form{
+    max-width: 10rem;
+}
+.m-top{
+    margin-top: 2rem;
+}
+
+@media screen and (max-width: 1000px){
+    .bg-nav{
+        align-content: center;
+    }
+}
+@media screen and (min-width: 1000px){
+
 }
 
 form {
@@ -110,7 +169,7 @@ nav .icon ul li a i{
     align-items: center;
     justify-content: right;
     margin-left: 60%;
-    margin-top: -35%;
+    margin-top: -10%;
     border-radius: 3rem;
 }
 footer{
@@ -143,5 +202,135 @@ footer i{
 footer i:hover{
     color: #0a58ca;
 }
+.container {
+    margin-top: 30px;
+}
+
+.image-container {
+    position: relative;
+}
+
+
+
+.links {
+    position: absolute;
+    top: 0;
+    left: -150px;
+}
+
+.links a {
+    display: block;
+    margin-bottom: 10px;
+    font-size: xx-large;
+    color: #74867A;
+    padding-bottom: 45px;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1000px) {
+    .bg-nav {
+        align-content: center;
+    }
+
+    .logo-small {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .logo-medium {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .nav-link {
+        font-size: 0.8rem;
+    }
+
+    .search-icon {
+        margin-left: 1rem;
+    }
+
+    .search {
+        margin-left: -4rem;
+    }
+
+    .icon {
+        font-size: 1.2rem;
+    }
+
+    .col p {
+        margin-top: 15%;
+        margin-left: -8%;
+        font-size: small;
+    }
+
+    .nav-tabs {
+        padding-left: 8%;
+        font-size: 1.5rem;
+    }
+
+    .tab-content {
+        padding-left: 4%;
+        padding-top: 30px;
+    }
+
+    .hr {
+        margin-left: -8%;
+        width: 320px;
+        margin-top: 3%;
+    }
+
+    .tab-content a {
+        font-size: 1.2rem;
+    }
+
+    .img_services img {
+        width: auto;
+        height: 400px;
+        align-items: center;
+        justify-content: right;
+        margin-left: 60%;
+        margin-top: -10%;
+        border-radius: 3rem;
+    }
+
+    .container {
+        margin-top: 10px;
+    }
+
+    .image-container {
+        position: relative;
+    }
+
+    .links {
+        position: absolute
+    }}
+
 
 

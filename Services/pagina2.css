@@ -10,80 +10,97 @@ Quicksand: font-family: 'League Spartan', sans-serif;
 Noto serif:
 */
 
-nav{
+body{
+    background-color: var(--color-beige-dark);
+}
+
+
+.navbar{
     position: fixed;
+    z-index: 10;
     width: 100%;
+    margin-top: 0;
+}
+.logo-small{
+    width: 3rem;
+    height: 3rem;
+    margin-left: .3rem;
+    margin-right: .3rem;
+    object-fit: contain;
+}
+.logo-medium{
+    width: 5rem;
+    height: 5rem;
+    margin-left: .3rem;
+    margin-right: .3rem;
+    object-fit: contain;
 }
 
-nav img{
-    height: 3.5rem;
-    width: auto;
+
+.nav-round{
+    border-radius: 5rem;
+    border: none;
+    background-color: var(--color-white);
 }
 
-nav ul{
-    border-radius: 20rem;
-    background-color: #C5C5C5;
-    -webkit-backdrop-filter: blur(10px);backdrop-filter: blur(10px);
+.bg-nav{
+    backdrop-filter: blur(10px) brightness(0.79);
+    height: 4rem;
+    margin-top: -.5rem;
 }
 
-nav ul li{
-    font-family: 'League Spartan', sans-serif;
-    list-style-type: none;
+li{
+    border-radius: 5rem;
+    margin-left: .7rem;
+    margin-right: .7rem;
+    padding-left: .6rem;
+    padding-right: .6rem;
+    max-height: 3rem;
 }
-nav ul li a{
-    text-decoration: none;
-    border-radius: 6rem;
-    color: #000;
-    background-color: #fff;
-}
-
-nav .icon ul li a{
-    background-color: #000;
-}
-
-form {
+.nav-link{
+    color: var(--color-white);
     display: flex;
     align-items: center;
 }
-
-input[type="text"] {
-    padding: 5px;
-    font-size: 16px;
-    border: none;
-    border-radius: 5rem;
-    outline: none;
-    flex: 1;
+.nav-link:hover{
+    color: var(--color-white);
 }
 
-button[type="submit"] {
-    padding: 5px 10px;
-    font-size: 16px;
-    background-color: #505050;
-    color: white;
-    border: none;
-    border-radius: 5rem;
-    cursor: pointer;
-    margin-left: 5px;
-}
 
-nav .icon ul li a i{
-    font-size: 1rem;
+.search-icon{
+    margin-left: 2rem;
 }
-.col {
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    margin-left: -9%;
-
+.search{
+    margin-left: -5rem;
 }
-.col p{
-    margin-top: 5%;
-    margin-left: 12%;
-    font-size: small;
+.search-container{
+    margin: 0;
 }
-.nav-tabs{
-    padding-left: 13%;
+.icon{
     font-size: xx-large;
+    margin-left: 1rem;
+
+}
+
+li{
+    min-width: fit-content;
+}
+form{
+    max-width: 10rem;
+}
+.m-top{
+    margin-top: 2rem;
+}
+
+@media screen and (max-width: 1000px){
+    .bg-nav{
+        align-content: center;
+    }
+
+
+}
+@media screen and (min-width: 1000px){
+
 }
 .tab-content{
     padding-left: 7%;
@@ -106,9 +123,10 @@ nav .icon ul li a i{
     font-size: 30px ;
     color: black;
     margin-top: 29%;
+    margin-left: -20px;
 }
 .col h2{
-    margin-left:12%;
+    margin-left: 40px;
     margin-top: -3%;
     color: #74867A;
 }
@@ -123,8 +141,8 @@ nav .icon ul li a i{
     height: auto;
     align-items: center;
     justify-content: right;
-    margin-left: 60%;
-    margin-top: -40%;
+    margin-left: 65%;
+    margin-top: -50%;
     border-radius: 3rem;
 }
 footer{
@@ -156,4 +174,9 @@ footer i{
 
 footer i:hover{
     color: #0a58ca;
+}
+.col .col-8{
+    margin-left: 40px;
+    margin-top: 45px;
+    max-width: 700px;
 }
