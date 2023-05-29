@@ -34,3 +34,10 @@ main #formulier {
 main {
   padding: 4rem;
 }
+p {
+  font-family: 'Noto Serif', serif;
+}
+h1,h2,h3{
+font-family: quicksand, sans-serif;
+font-weight: bolder;
+}
